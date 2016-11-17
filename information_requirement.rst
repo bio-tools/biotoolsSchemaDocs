@@ -41,7 +41,7 @@ Valid values of toolType in in the latest schema (`biotools-2.0.0 <https://githu
    "Database portal", "A Web application, suite or workbench providing a portal to a biological database."
    "Desktop application", "A tool with a graphical user interface that runs on your desktop environment, e.g. on a PC or mobile device."
    "Library", "A collection of components that are used to construct other tools.  bio.tools scope includes component libraries performing high-level bioinformatics functions but excludes lower-level programming libraries."
-   "Ontology", "A collection of information about concepts, including terms, synonyms, descriptions etc.", "2.0.0"
+   "Ontology", "A collection of information about concepts, including terms, synonyms, descriptions etc."
    "Plug-in", "A software component encapsulating a set of related functions, which are not standalone, i.e. depend upon other software for its use, e.g. a Javascript widget, or a plug-in, extension add-on etc. that extends the function of some existing tool."
    "Script", "A tool written for some run-time environment (e.g. other applications or an OS shell) that automates the execution of tasks. Often a small program written in a general-purpose languages (e.g. Perl, Python) or some domain-specific languages (e.g. sed)."
    "SPARQL endpoint", "A service that provides queries over an RDF knowledge base via the SPARQL query language and protocol, and returns results via HTTP."
