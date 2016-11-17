@@ -4,7 +4,7 @@ Information requirement
 bio.tools standard
 ------------------
 https://bio.tools will include a "staging area" for "beta entries" with less rich annotation.  The minimum information requirement for "beta" and "standard" is given in the respective columns.
-Attributes are defined as mandatory in the current schema in production in bio.tools ([biotools-1.4](https://github.com/bio-tools/biotoolsschema/tree/master/biotools-1.4)) or the new version ([biotools-2.0.0](https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0)) as indicated by "Version" column..
+Attributes are defined as mandatory in the current schema in production in bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-1.4>`_) or the new version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_) as indicated by "Version" column.
 
 .. csv-table:: Information requirements
    :header: "Attribute", "Description", "Format", "beta", "standard", "Version", "element"
