@@ -1,0 +1,2 @@
+# biotoolsSchemaDocs
+Documentation for biotoolsSchema
