@@ -4,11 +4,11 @@ Contributors
 Main authors
 ------------
 * Jon Ison (CBS-DTU, DK) *- lead developer*
-* Emil Rydza (CBS-DTU, DK)
+* Emil Rydza (KU, DK)
 * Hervé Ménager (IP, FR)
 * Kristoffer Rapacki (CBS-DTU, DK)
 * Matúš Kalaš (UiB, NO)
-* Piotr Chmura (CBS-DTU, DK)
+* Piotr Chmura (KU, DK)
 * Piotr Wojciech Dabrowski (RKI, DE)
 
 Contributors
@@ -22,7 +22,9 @@ Thanks to the many people who have contributed - if you're not listed below, ple
 * Heinz Stockinger (ELIXIR-CH)
 * Helen Parkinson (EMBL-EBI, UK)
 * Julie McMurry (EMBL-EBI, UK)
+* Magnus Palmblad (LUMC, NL)
 * Michael Crusoe (University of California)
+* Niall Beard (University of Manchester)
 * Rodrigo Lopez (EMBL-EBI)
 * Veit Schwämmle (SDU-BMB, DK)
 * Delegates of the many BioMedBridges and ELIXIR workshops 
