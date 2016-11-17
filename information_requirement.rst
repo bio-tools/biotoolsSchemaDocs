@@ -3,7 +3,7 @@ Information requirement
 
 bio.tools standard
 ------------------
-Attributes defined as mandatory in the schema version used by bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-1.4>`_) and the latest stable version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_) are indicated by "Version" column.  https://bio.tools specifies an information requirement for "standard" and "beta" (less well annotated) entries, as indicated in the respective columns.
+Attributes defined as mandatory in the schema version used by bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-1.4>`_) and the latest stable version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are indicated by "Version" column.  https://bio.tools specifies an information requirement for "standard" and "beta" (less well annotated) entries, as indicated in the respective columns.
 
 .. csv-table:: Information requirements
    :header: "Attribute", "Description", "Format", "beta", "standard", "Version", "element"
@@ -28,7 +28,7 @@ Attributes defined as mandatory in the schema version used by bio.tools (`biotoo
 
 Tool types
 ----------
-Valid values of toolType in in the latest schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_).
+Valid values of toolType in in the latest schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_).
 
 .. csv-table:: Tool types
    :header: "Type", "Description"
