@@ -3,8 +3,7 @@ Information requirement
 
 bio.tools standard
 ------------------
-https://bio.tools will include a "staging area" for "beta entries" with less rich annotation.  The minimum information requirement for "beta" and "standard" is given in the respective columns.
-Attributes are defined as mandatory in the current schema in production in bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-1.4>`_) or the new version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_) as indicated by "Version" column.
+Attributes defined as mandatory in the schema version used by bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-1.4>`_) and the latest stable version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_) are indicated by "Version" column.  https://bio.tools specifies an information requirement for "standard" and "beta" (less well annotated) entries, as indicated in the respective columns.
 
 .. csv-table:: Information requirements
    :header: "Attribute", "Description", "Format", "beta", "standard", "Version", "element"
@@ -15,8 +14,8 @@ Attributes are defined as mandatory in the current schema in production in bio.t
    "homepage (1 only)", "Resource homepage", "URL", "y", "y", "1.4, 2.0.0", "``<homepage>``, ``<homepage>``"
    "description (1 only)", "Short textual description of the resource", "Text", "y", "y", "1.4, 2.0.0", "``<description>``, ``<description>``"
    "tool type (1 or more)", "Type of tool.  A tool may have more than one type reflecting its different facets.", "enum (see below)", "y", "y", "2.0.0", "``<toolType>``"
-   "resource type (1 or more)", "Basic resource type", "enum (see below)", "-", "-", "1.4", "``<resourceType>``"
-   "interface type (1 or more)", "Resource interface type", "enum (see below)", "-", "-", "1.4", "``<interfaceType>``"
+   "resource type (1 or more)", "Basic resource type", "enum (see below)", "n/a", "n/a", "1.4", "``<resourceType>``"
+   "interface type (1 or more)", "Resource interface type", "enum (see below)", "n/a", "n/a", "1.4", "``<interfaceType>``"
    "topic (1 or more)", "General scientific domain(s) the resource serves, e.g. 'Proteomics'", "Term and / or URI of `EDAM Topic <http://edamontology.org/topic_0004>`_ concept(s) (1)", "y", "y", "1.4, 2.0.0", "``<topic>``"
    "function (1 or more)", "The basic resource function(s), e.g. 'Multiple sequence alignment'", "Term and / or URI of `EDAM Operation <http://edamontology.org/operation_0004>`_ concept(s)", "y", "y", "1.4, 2.0.0", "``<function->functionName>``, ``<function->operation>``"
    "input data (0 or more)", "Type(s) of data: primary inputs (if any), e.g. 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function->input->dataType>``, ``<function->input->data>``"
@@ -24,13 +23,11 @@ Attributes are defined as mandatory in the current schema in production in bio.t
    "contact (1 or more)", "Primary contact, e.g. a person, helpdesk or mailing list", "Email address and / or URL of contact (2)", "-", "y", "1.4", "``<contact>``, ``<contact>``"
    "publication (0 or more)", "Publications about the software", "PMID, PMCID or DOI", "-", "y", "-", "``<publication>``, ``<publication>``"
 
-.. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can read find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
-
-.. note:: (2) one of contactEmail or contactURL must be specified
+.. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
 
 
-Tool types (v2.0.0)
--------------------
+Tool types
+----------
 Valid values of toolType in in the latest schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsschema/tree/master/biotools-2.0.0>`_).
 
 .. csv-table:: Tool types
