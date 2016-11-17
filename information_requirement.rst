@@ -17,16 +17,16 @@ Attributes are defined as mandatory in the current schema in production in bio.t
    "tool type (1 or more)", "Type of tool.  A tool may have more than one type reflecting its different facets.", "enum (see below)", "y", "y", "2.0.0", "``<toolType>``"
    "resource type (1 or more)", "Basic resource type", "enum (see below)", "-", "-", "1.4", "``<resourceType>``"
    "interface type (1 or more)", "Resource interface type", "enum (see below)", "-", "-", "1.4", "``<interfaceType>``"
-   "topic (1 or more)", "General scientific domain(s) the resource serves, e.g. 'Proteomics'", "Term and / or URI of `EDAM Topic <http://edamontology.org/topic_0004>`_ concept(s)*", "y", "y", "1.4, 2.0.0", " ``<topic>``"
+   "topic (1 or more)", "General scientific domain(s) the resource serves, e.g. 'Proteomics'", "Term and / or URI of `EDAM Topic <http://edamontology.org/topic_0004>`_ concept(s) (1)", "y", "y", "1.4, 2.0.0", "``<topic>``"
    "function (1 or more)", "The basic resource function(s), e.g. 'Multiple sequence alignment'", "Term and / or URI of `EDAM Operation <http://edamontology.org/operation_0004>`_ concept(s)", "y", "y", "1.4, 2.0.0", "``<function->functionName>``, ``<function->operation>``"
    "input data (0 or more)", "Type(s) of data: primary inputs (if any), e.g. 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function->input->dataType>``, ``<function->input->data>``"
    "output data (0 or more)", "Type(s) of data: primary outputs (if any), e.g. 'Protein sequence alignment'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function->output->dataType>``, ``<function->output->data>``"
-   "contact (1 or more)", "Primary contact, e.g. a person, helpdesk or mailing list", "Email address and / or URL of contact**", "-", "y", "1.4", "``<contact>``, ``<contact>``"
+   "contact (1 or more)", "Primary contact, e.g. a person, helpdesk or mailing list", "Email address and / or URL of contact (2)", "-", "y", "1.4", "``<contact>``, ``<contact>``"
    "publication (0 or more)", "Publications about the software", "PMID, PMCID or DOI", "-", "y", "-", "``<publication>``, ``<publication>``"
 
-* EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can read find [EDAM on GitHub](https://github.com/edamontology/edamontology).
+.. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can read find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
 
-** one of contactEmail or contactURL must be specified
+.. note:: (2) one of contactEmail or contactURL must be specified
 
 
 Tool types (v2.0.0)
