@@ -17,9 +17,9 @@ Attributes defined as mandatory in the schema version used by bio.tools (`biotoo
    "resource type (1 or more)", "Basic resource type", "enum (see below)", "n/a", "n/a", "1.4", "``<resourceType>``"
    "interface type (1 or more)", "Resource interface type", "enum (see below)", "n/a", "n/a", "1.4", "``<interfaceType>``"
    "topic (1 or more)", "General scientific domain(s) the resource serves, e.g. 'Proteomics'", "Term and / or URI of `EDAM Topic <http://edamontology.org/topic_0004>`_ concept(s) (1)", "y", "y", "1.4, 2.0.0", "``<topic>``"
-   "function (1 or more)", "The basic resource function(s), e.g. 'Multiple sequence alignment'", "Term and / or URI of `EDAM Operation <http://edamontology.org/operation_0004>`_ concept(s)", "y", "y", "1.4, 2.0.0", "``<function->functionName>``, ``<function->operation>``"
-   "input data (0 or more)", "Type(s) of data: primary inputs (if any), e.g. 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function->input->dataType>``, ``<function->input->data>``"
-   "output data (0 or more)", "Type(s) of data: primary outputs (if any), e.g. 'Protein sequence alignment'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function->output->dataType>``, ``<function->output->data>``"
+   "function (1 or more)", "The basic resource function(s), e.g. 'Multiple sequence alignment'", "Term and / or URI of `EDAM Operation <http://edamontology.org/operation_0004>`_ concept(s)", "y", "y", "1.4, 2.0.0", "``<function><functionName>>``, ``<function><operation>>``"
+   "input data (0 or more)", "Type(s) of data: primary inputs (if any), e.g. 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function><input><dataType>>``, ``<function><input><data>>``"
+   "output data (0 or more)", "Type(s) of data: primary outputs (if any), e.g. 'Protein sequence alignment'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "-", "y", "-", "``<function><output><dataType>>``, ``<function><output><data>>``"
    "contact (1 or more)", "Primary contact, e.g. a person, helpdesk or mailing list", "Email address and / or URL of contact (2)", "-", "y", "1.4", "``<contact>``, ``<contact>``"
    "publication (0 or more)", "Publications about the software", "PMID, PMCID or DOI", "-", "y", "-", "``<publication>``, ``<publication>``"
 
