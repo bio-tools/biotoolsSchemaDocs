@@ -19,14 +19,18 @@ Current development version
 - https://github.com/bio-tools/biotoolsSchema/blob/master/biotools_dev.xsd
 
 
-Versioned releases:
+Versioned releases
 
 - https://github.com/bio-tools/biotoolsSchema/tree/master/versions
 
 
 Status
 ------
-biotoolsSchema is a mature schema having undergone a lot of community-driven revision (e.g. see `bio.tools events <http://biotools.readthedocs.io/en/latest/events.html>`_).  Development is use-case driven, primarily by `bio.tools <https://bio.tools>`_.  Future versions will not depart fundamentally from the current elements or structure.  The development of biotoolsSchema can be followed at `GitHub <https://github.com/bio-tools/biotoolsschema/>`_.
+biotoolsSchema is a mature schema having undergone a lot of community-driven revision (e.g. see `bio.tools events <http://biotools.readthedocs.io/en/latest/events.html>`_).  Development is use-case driven, primarily by `bio.tools <https://bio.tools>`_.  Future versions will not depart fundamentally from the current elements or structure.  The development of biotoolsSchema can be followed at `GitHub <https://github.com/bio-tools/biotoolsschema/>`_.  From version 2.0.0, version number follow the `MAJOR.MINOR.PATCH` pattern:
+
+* `MAJOR` version for incompatible API changes
+* `MINOR` version for addition of functionality in a backwards-compatible manner
+* `PATCH` version for backwards-compatible bug fixes
 
 For ways to contribute, please see the `Contributors Guide <http://biotools.readthedocs.org/en/latest/contributors_guide.html>`_. 
 
