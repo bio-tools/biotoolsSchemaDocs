@@ -3,10 +3,10 @@ Information requirement
 
 bio.tools standard
 ------------------
-Attributes defined as mandatory in the schema version used by bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-1.4>`_) and the latest stable version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are indicated by "Version" column.  https://bio.tools specifies an information requirement for "standard" and "beta" (less well annotated) entries, as indicated in the respective columns.
+Attributes defined as mandatory in the schema version used by bio.tools (`biotools-1.4 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-1.4>`_) and the latest stable version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are indicated by "Version" column.  https://bio.tools specifies an information requirement for "standard" and "minimal" (less well annotated) entries, as indicated in the respective columns.
 
 .. csv-table:: Information requirements
-   :header: "Attribute", "Description", "Format", "beta", "standard", "Version", "element"
+   :header: "Attribute", "Description", "Format", "minimal", "standard", "Version", "element"
    :widths: 15, 75, 10, 10, 10, 10, 10
 
    "name (1 only)", "Canonical resource name", "Text", "y", "y", "1.4, 2.0.0", "``<name>``, ``<name>``"
