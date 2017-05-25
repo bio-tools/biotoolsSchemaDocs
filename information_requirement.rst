@@ -2,10 +2,10 @@ Information requirement
 =======================
 
 bio.tools information standard
-------------------
+------------------------------
 biotoolsSchema provides the foundation for an information standard for the desription of tools that is being adopted by bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality, as indicated in the respective columns.  Attributes defined as mandatory in the latest stable schema version (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "minimal" column.
 
-.. csv-table:: Information requirements
+.. csv-table::
    :header: "Attribute", "Description", "Format", "Minimal", "Silver", "Gold", "element"
    :widths: 15, 75, 10, 10, 10, 10, 10
 
