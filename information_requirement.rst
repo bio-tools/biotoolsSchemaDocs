@@ -3,7 +3,7 @@ Information requirement
 
 bio.tools information standard
 ------------------------------
-biotoolsSchema provides the foundation for an *information standard* for the desription of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality.
+biotoolsSchema provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality.
 
 
 .. image:: information_standard.png
