@@ -32,6 +32,9 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 .. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
 
 
+.. image:: information_standard.png
+	  
+
 Tool types
 ----------
 Types of tool defined in the latest schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_).
