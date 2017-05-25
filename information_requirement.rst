@@ -7,7 +7,7 @@ biotoolsSchema provides the foundation for an information standard for the desri
 
 .. csv-table:: Information requirements
    :header: "Attribute", "Description", "Format", "Minimal", "Silver", "Gold", "element"
-   :widths: 15, 75, 10, 10, 10, 10, 10, 10
+   :widths: 15, 75, 10, 10, 10, 10, 10
 
   "**Name**", "Canonical software name assigned by the software developer or service provider", "Text", "y", "y", "y", "``<name>``"
   "**Description**", "Short and concise textual description of the software function", "Text", "y", "y", "y", "``<description>``"
