@@ -3,7 +3,11 @@ Information requirement
 
 bio.tools information standard
 ------------------------------
-biotoolsSchema provides the foundation for an *information standard* for the desription of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality, as indicated in the respective columns.
+biotoolsSchema provides the foundation for an *information standard* for the desription of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality.
+
+
+.. image:: information_standard.png
+
 
 Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "minimal" column.
 
@@ -32,7 +36,6 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 .. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
 
 
-.. image:: information_standard.png
 	  
 
 Tool types
