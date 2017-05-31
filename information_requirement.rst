@@ -3,6 +3,9 @@ Information requirement
 
 bio.tools information standard
 ------------------------------
+
+**This is a work in progress.  Please join the `discussion on GitHub <https://github.com/bio-tools/biotoolsSchema/issues/77>`_.**
+
 biotoolsSchema provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled as a "minimal", "silver" and "gold" standard quality.
 
 
