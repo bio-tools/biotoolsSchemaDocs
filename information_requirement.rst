@@ -38,11 +38,11 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Helpdesk**", "Helpdesk providing support in using the software.", "URL", "``<link><type>Helpdesk</type>``"
    "**Issue tracker**", "Link to tracker for software issues, bug reports, feature requests etc.", "URL", "``<link><type>Issue tracker</type>``"
    "**Mailing list**", "Link to mailing list for software announcements, discussions, support etc.", "URL", "``<link><type>Mailing list</type>``"
-   "**Operating system**", "The operating system supported by a downloadable software package.", "URL", "``<labels><OperatingSystem>``"
-   "**Language**", "Name of programming language the software source code was written in.", "URL", "``<labels><Language>``"
-   "**Cost**", "Monetary cost of acquiring the software.", "URL", "``<labels><Cost>``"
-   "**Accessibility**", "Whether the software is freely available for use.", "URL", "``<labels><Accessibility>``"
-   "**Maturity**", "How mature the software product is.", "URL", "``<labels><Maturity>``"
+   "**Operating system**", "The operating system supported by a downloadable software package.", "enum (from biotoolsSchema)", "``<labels><OperatingSystem>``"
+   "**Language**", "Name of programming language the software source code was written in.", "enum (from biotoolsSchema)", "``<labels><Language>``"
+   "**Cost**", "Monetary cost of acquiring the software.", "enum (from biotoolsSchema)", "``<labels><Cost>``"
+   "**Accessibility**", "Whether the software is freely available for use.", "enum (from biotoolsSchema)", "``<labels><Accessibility>``"
+   "**Maturity**", "How mature the software product is.", "enum (from biotoolsSchema)", "``<labels><Maturity>``"
 
    
 
