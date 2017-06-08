@@ -15,7 +15,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 
 .. csv-table::
    :header: "Attribute", "Description", "Format", "element"
-   :widths: 15, 75, 10, 10, 
+   :widths: 15, 75, 10, 10
 
    "**Name**", "Canonical software name assigned by the software developer or service provider", "Text", "``<name>``"
    "**Description**", "Short and concise textual description of the software function", "Text", "``<description>``"
