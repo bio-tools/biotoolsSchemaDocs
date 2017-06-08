@@ -21,7 +21,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Description**", "Short and concise textual description of the software function", "Text", "``<description>``"
    "**Homepage**", "Homepage of the software, or some URL that best serves this purpose", "URL", "``<homepage>``"
    "**Tool type**", "The type of application software: a discrete software entity can have more than one type.", "enum (from biotoolsSchema, see below)", "``<toolType>``"
-   "**Unique ID**", "Unique ID of the tool that is assigned upon registration of the software in bio.tools", "Text (URL-safe version of tool name)", "y", "y","y", "``<toolID>``"
+   "**Unique ID**", "Unique ID of the tool that is assigned upon registration of the software in bio.tools", "Text (URL-safe version of tool name)", "``<toolID>``"
    "**Scientific topics**", "General scientific domain the software serves or other general category, *e.g.* 'Proteomics'", "Term and / or URI of `EDAM Topic <http://edamontology.org/topic_0004>`_ concept(s) (1)", "``<topic>``"
    "**Publications**", "Publications about the software", "DOI, PMID or PMCID", "``<publication>``"
    "**Contact information**", "Primary contact, *e.g.* a person, helpdesk or mailing list", "Email address and / or URL",  "``<contact>``"
