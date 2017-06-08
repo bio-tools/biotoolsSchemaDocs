@@ -11,7 +11,7 @@ biotoolsSchema provides the foundation for an *information standard* for the des
 
 .. image:: information_standard.png
 
-Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "minimal" column.  NB:  The persistent human readable URL e.g. https://bio.tools/tool/signalp is derived from the unique ID.
+Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "minimal" column, plus  "Scientific operation".  NB: A persistent human readable URL e.g. https://bio.tools/tool/signalp is derived from the unique ID.
 
 .. csv-table::
    :header: "Attribute", "Description", "Format", "element"
