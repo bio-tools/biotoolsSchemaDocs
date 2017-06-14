@@ -6,7 +6,7 @@ bio.tools information standard
 
 **This is a work in progress.**  Please join the `discussion on GitHub <https://github.com/bio-tools/biotoolsSchema/issues/77>`_
 
-biotoolsSchema provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled with a 0-5 gold-star rating of annotation quality.
+biotoolsSchema provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard defines the attributes that must be defined for an entry to be labelled in a 5 tier rating of annotation quality.
 
 
 .. image:: information_standard.png
