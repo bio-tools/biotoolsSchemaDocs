@@ -32,11 +32,10 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Operating system**", "The operating system supported by a downloadable software package.", "enum (from biotoolsSchema)", "``<labels><OperatingSystem>``"
    "**Type of input & output data**", "Type of primary input / output data (if any), *e.g.* 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "``<function><input>/<output><data>``"
    "**Supported data formats**", "Allowed format(s) of primary inputs/outputs, *e.g.* 'FASTA'", "Term and / or URI of `EDAM Format <http://edamontology.org/format_1915>`_ concept(s)", "``<function><input>/<output><format>``"
-
+   
 .. csv-table:: Attributes ("Documentation" group)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
-
    "**General documentation**", "General documentation", "URL", "``<documentation><type>General</type>``"
    "**API documentation**", "Human-readable API documentation.", "URL", "``<documentation><type>API documentation</type>``"
    "**API specification**", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file.", "URL", "``<download><type>API specification</type>``"
@@ -44,7 +43,6 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    .. csv-table:: Attributes ("Code availability" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
-
    "**Repository**", "Link to repository where source code, data and other files may be downloaded", "URL", "``<link><type>Repository</type>``"
    "**Source code**", "Software source code.", "URL", "``<download><type>Source code</type>``"
    "**Source package**", "Source package (of various types) for the software.", "URL", "``<download><type>Source package</type>``"
