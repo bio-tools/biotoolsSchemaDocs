@@ -38,13 +38,13 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 .. csv-table:: Attributes ("Documentation" group)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
-	    
+    
    "**General documentation**", "General documentation", "URL", "``<documentation><type>General</type>``"
    "**API documentation**", "Human-readable API documentation.", "URL", "``<documentation><type>API documentation</type>``"
    "**API specification**", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file.", "URL", "``<download><type>API specification</type>``"
 
    
-   .. csv-table:: Attributes ("Code availability" grouping)
+.. csv-table:: Attributes ("Code availability" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -55,7 +55,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Language**", "Name of programming language the software source code was written in.", "enum (from biotoolsSchema)", "``<labels><Language>``"
 
    
-   .. csv-table:: Attributes ("Accessibility" grouping)
+.. csv-table:: Attributes ("Accessibility" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -64,7 +64,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Cost**", "Monetary cost of acquiring the software.", "enum (from biotoolsSchema)", "``<labels><Cost>``"
 
    
-   .. csv-table:: Attributes ("Community" grouping)
+.. csv-table:: Attributes ("Community" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -73,7 +73,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Mailing list**", "Link to mailing list for software announcements, discussions, support etc.", "URL", "``<link><type>Mailing list</type>``"
 
    
-   .. csv-table:: Attributes ("Downloads" grouping)
+.. csv-table:: Attributes ("Downloads" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
