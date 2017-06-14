@@ -34,8 +34,13 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Type of input & output data**", "Type of primary input / output data (if any), *e.g.* 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "``<function><input>/<output><data>``"
    "**Supported data formats**", "Allowed format(s) of primary inputs/outputs, *e.g.* 'FASTA'", "Term and / or URI of `EDAM Format <http://edamontology.org/format_1915>`_ concept(s)", "``<function><input>/<output><format>``"
 
-   
-.. csv-table:: Attributes ("Documentation" group)
+
+Description of attributes
+-------------------------
+
+"Documentation" group
+^^^^^^^^^^^^^^^^^^^^^
+.. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
     
@@ -43,8 +48,9 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**API documentation**", "Human-readable API documentation.", "URL", "``<documentation><type>API documentation</type>``"
    "**API specification**", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file.", "URL", "``<download><type>API specification</type>``"
 
-   
-.. csv-table:: Attributes ("Code availability" grouping)
+"Code availability" group
+^^^^^^^^^^^^^^^^^^^^^^^^^    
+.. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -54,8 +60,9 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**License**", "Software or data usage license", "enum (from biotoolsSchema)", "``<labels><license>``"
    "**Language**", "Name of programming language the software source code was written in.", "enum (from biotoolsSchema)", "``<labels><Language>``"
 
-   
-.. csv-table:: Attributes ("Accessibility" grouping)
+"Accessibility" group
+^^^^^^^^^^^^^^^^^^^^^
+.. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -63,8 +70,9 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Accessibility**", "Whether the software is freely available for use.", "enum (from biotoolsSchema)", "``<labels><Accessibility>``"
    "**Cost**", "Monetary cost of acquiring the software.", "enum (from biotoolsSchema)", "``<labels><Cost>``"
 
-   
-.. csv-table:: Attributes ("Community" grouping)
+"Community" group
+^^^^^^^^^^^^^^^^^
+.. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -73,7 +81,9 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Mailing list**", "Link to mailing list for software announcements, discussions, support etc.", "URL", "``<link><type>Mailing list</type>``"
 
    
-.. csv-table:: Attributes ("Downloads" grouping)
+"Downloads" group
+^^^^^^^^^^^^^^^^^
+.. csv-table::
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 
@@ -88,4 +98,3 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 
   
 .. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
-
