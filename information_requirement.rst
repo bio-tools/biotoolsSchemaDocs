@@ -20,6 +20,7 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
 .. csv-table:: Attributes (general)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+	    
    "**Name**", "Canonical software name assigned by the software developer or service provider", "Text", "``<name>``"
    "**Description**", "Short and concise textual description of the software function", "Text", "``<description>``"
    "**Homepage**", "Homepage of the software, or some URL that best serves this purpose", "URL", "``<homepage>``"
@@ -32,40 +33,50 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Operating system**", "The operating system supported by a downloadable software package.", "enum (from biotoolsSchema)", "``<labels><OperatingSystem>``"
    "**Type of input & output data**", "Type of primary input / output data (if any), *e.g.* 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "``<function><input>/<output><data>``"
    "**Supported data formats**", "Allowed format(s) of primary inputs/outputs, *e.g.* 'FASTA'", "Term and / or URI of `EDAM Format <http://edamontology.org/format_1915>`_ concept(s)", "``<function><input>/<output><format>``"
+
    
 .. csv-table:: Attributes ("Documentation" group)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+	    
    "**General documentation**", "General documentation", "URL", "``<documentation><type>General</type>``"
    "**API documentation**", "Human-readable API documentation.", "URL", "``<documentation><type>API documentation</type>``"
    "**API specification**", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file.", "URL", "``<download><type>API specification</type>``"
 
+   
    .. csv-table:: Attributes ("Code availability" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+
    "**Repository**", "Link to repository where source code, data and other files may be downloaded", "URL", "``<link><type>Repository</type>``"
    "**Source code**", "Software source code.", "URL", "``<download><type>Source code</type>``"
    "**Source package**", "Source package (of various types) for the software.", "URL", "``<download><type>Source package</type>``"
    "**License**", "Software or data usage license", "enum (from biotoolsSchema)", "``<labels><license>``"
    "**Language**", "Name of programming language the software source code was written in.", "enum (from biotoolsSchema)", "``<labels><Language>``"
 
+   
    .. csv-table:: Attributes ("Accessibility" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+
    "**Terms of use**", "Rules that one must agree to abide by in order to use a service.", "URL", "``<link><type>Terms of use</type>``"
    "**Accessibility**", "Whether the software is freely available for use.", "enum (from biotoolsSchema)", "``<labels><Accessibility>``"
    "**Cost**", "Monetary cost of acquiring the software.", "enum (from biotoolsSchema)", "``<labels><Cost>``"
 
+   
    .. csv-table:: Attributes ("Community" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+
    "**Helpdesk**", "Helpdesk providing support in using the software.", "URL", "``<link><type>Helpdesk</type>``"
    "**Issue tracker**", "Link to tracker for software issues, bug reports, feature requests etc.", "URL", "``<link><type>Issue tracker</type>``"
    "**Mailing list**", "Link to mailing list for software announcements, discussions, support etc.", "URL", "``<link><type>Mailing list</type>``"
 
+   
    .. csv-table:: Attributes ("Downloads" grouping)
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
+
    "**Binaries**", "Binaries for the software.", "URL", "``<download><type>Binaries</type>``"
    "**Binary package**", "Binary package for the software.", "URL", "``<download><type>Binary package</type>``"
    "**Container file**", "Container file including the software.", "URL", "``<download><type>Container file</type>``"
@@ -74,12 +85,6 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Tool wrapper (galaxy)**", "Galaxy tool configuration file (wrapper) for the software.", "URL", "``<download><type>Tool wrapper (galaxy)</type>``"
    "**Tool wrapper (taverna)**", "Taverna configuration file for the software.", "URL", "``<download><type>Tool wrapper (taverna)</type>``"
    "**Tool wrapper (other)**", "Workbench configuration file (other than taverna, galaxy or CWL wrapper) for the software.", "URL", "``<download><type>Tool wrapper (other)</type>``"
-
-
-
-
-   
-
 
   
 .. note:: (1) EDAM is a simple ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM provides a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use.  You can find `EDAM on GitHub <https://github.com/edamontology/edamontology>`_.
