@@ -15,9 +15,15 @@ biotoolsSchema provides the foundation for an *information standard* for the des
 
 .. image:: information_standard.png
 
+Description of attributes
+-------------------------
+
+
 Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "OKAY" tier plus  "Scientific operation" from the "GOOD" tier.  NB: A persistent human readable URL e.g. https://bio.tools/tool/signalp is derived from the unique ID.
 
-.. csv-table:: Attributes (general)
+General attributes
+^^^^^^^^^^^^^^^^^^
+.. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
    :widths: 15, 75, 10, 10
 	    
@@ -34,9 +40,6 @@ Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <ht
    "**Type of input & output data**", "Type of primary input / output data (if any), *e.g.* 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "``<function><input>/<output><data>``"
    "**Supported data formats**", "Allowed format(s) of primary inputs/outputs, *e.g.* 'FASTA'", "Term and / or URI of `EDAM Format <http://edamontology.org/format_1915>`_ concept(s)", "``<function><input>/<output><format>``"
 
-
-Description of attributes
--------------------------
 
 "Documentation" group
 ^^^^^^^^^^^^^^^^^^^^^
