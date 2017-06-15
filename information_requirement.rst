@@ -6,7 +6,7 @@ bio.tools information standard
 
 **This is a work in progress.**  Please join the `discussion on GitHub <https://github.com/bio-tools/biotoolsSchema/issues/77>`_
 
-biotoolsSchema provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
+`biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_ provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
 
 * a list of tool attributes (see below) that must be specified (or stated as not being available) for an entry to be labelled in a 5 tier rating of annotation quality
 * a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.  Adherence to some guidelines are checked by automated QC checks within bio.tools whereas others must be manually verified.  An entry in which all attributes pass the automated and manual checks can be labelled as "Verified". 
