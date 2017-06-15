@@ -8,10 +8,20 @@ bio.tools information standard
 
 `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_ provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
 
-* a list of tool attributes (see below) that must be specified (or stated as not being available) for an entry to be labelled in a 5 tier rating of annotation quality
+* a list of tool attributes (see below) that must be specified (or stated as not being available) for an entry to be labelled in a 5 tier rating of annotation quality.  Some attributes are grouped (see tables on right) for purposes of determining adherance to the standard.
 * a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.
 
-Adherence to some of the guidelines are checked by automated QC checks within bio.tools whereas others must be manually verified by bio.tools curators.  Entries in which all attributes pass both the automated and manual checks will be labelled as "Verified" (and stamped with data of verification and last update).
+Adherence to some of the `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ are checked by automated QC checks within bio.tools whereas others must be manually verified by bio.tools curators.  Entries in which all attributes pass both the automated and manual checks will be labelled as "Verified" (and stamped with data of verification and last update).
+
+*Why is a standard needed at all?*
+There are several reasons why a community-defined standard for tool information is helpful:
+
+* accessible summary of what type of information bio.tools provides
+* minimal information requirement presenting a low barrier to new registrations, compatible / enabling integration with other major related cataloguing efforts (e.g. BioContainers)
+* quality tiers motivate individual entry owners to improve their entries (curation as a "game"), with a "gold standard" of entry quality for curators to aspire to  
+* a framework / workflow to guide tasks and priorities of curators, thematic editors and bio.tools admin
+* a basis for metrics of bio.tools quality, KPIs (key performance indicators) of quality improvement objectives, and targets
+* a component of branding bio.tools as a trusted source of quality tool information
 
 .. image:: information_standard.png
 
