@@ -9,17 +9,17 @@ bio.tools information standard
 `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_ provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
 
 * a list of tool attributes (see below) that must be specified (or stated as not being available) for an entry to be labelled in a 5 tier rating of annotation quality
-* a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.  Adherence to some guidelines are checked by automated QC checks within bio.tools whereas others must be manually verified.  An entry in which all attributes pass the automated and manual checks can be labelled as "Verified". 
+* a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.
 
-
+Adherence to some of the guidelines are checked by automated QC checks within bio.tools whereas others must be manually verified by bio.tools curators.  Entries in which all attributes pass both the automated and manual checks will be labelled as "Verified" (and stamped with data of verification and last update).
 
 .. image:: information_standard.png
 
+	   
 Description of attributes
 -------------------------
 
-
-Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "OKAY" tier plus  "Scientific operation" from the "GOOD" tier.  NB: A persistent human readable URL e.g. https://bio.tools/tool/signalp is derived from the unique ID.
+Attributes defined as mandatory in the latest stable schema (`biotools-2.0.0 <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-2.0.0>`_) are those in the "OKAY" tier plus  "Scientific operation" from the "GOOD" tier.
 
 General attributes
 ^^^^^^^^^^^^^^^^^^
