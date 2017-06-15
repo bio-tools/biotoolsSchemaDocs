@@ -13,7 +13,10 @@ bio.tools information standard
 
 Adherence to some of the `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ are checked by automated QC checks within bio.tools whereas others must be manually verified by bio.tools curators.  Entries in which all attributes pass both the automated and manual checks will be labelled as "Verified" (and stamped with data of verification and last update).
 
-*Why is a standard needed at all?*
+.. image:: information_standard.png
+
+Why is a standard needed at all?
+--------------------------------	   
 There are several reasons why a community-defined standard for tool information is helpful:
 
 * accessible summary of what type of information bio.tools provides
@@ -23,9 +26,8 @@ There are several reasons why a community-defined standard for tool information 
 * a basis for metrics of bio.tools quality, KPIs (key performance indicators) of quality improvement objectives, and targets
 * a component of branding bio.tools as a trusted source of quality tool information
 
-.. image:: information_standard.png
 
-	   
+   
 Description of attributes
 -------------------------
 
