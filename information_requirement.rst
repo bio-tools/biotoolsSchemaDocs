@@ -51,6 +51,9 @@ General attributes
    "**Operating system**", "The operating system supported by a downloadable software package.", "enum (from biotoolsSchema)", "``<labels><OperatingSystem>``"
    "**Type of input & output data**", "Type of primary input / output data (if any), *e.g.* 'Protein sequences'", "Term and / or URI of `EDAM Data <http://edamontology.org/data_0006>`_ concept(s)", "``<function><input>/<output><data>``"
    "**Supported data formats**", "Allowed format(s) of primary inputs/outputs, *e.g.* 'FASTA'", "Term and / or URI of `EDAM Format <http://edamontology.org/format_1915>`_ concept(s)", "``<function><input>/<output><format>``"
+    "**License**", "Software or data usage license", "enum (from biotoolsSchema)", "``<labels><license>``"
+    "**Scientific benchmark**", "Scientific benchmarking results.", "tbd", "n/a"
+
 
 
 "Documentation" group
@@ -72,7 +75,6 @@ General attributes
    "**Repository**", "Link to repository where source code, data and other files may be downloaded", "URL", "``<link><type>Repository</type>``"
    "**Source code**", "Software source code.", "URL", "``<download><type>Source code</type>``"
    "**Source package**", "Source package (of various types) for the software.", "URL", "``<download><type>Source package</type>``"
-   "**License**", "Software or data usage license", "enum (from biotoolsSchema)", "``<labels><license>``"
    "**Language**", "Name of programming language the software source code was written in.", "enum (from biotoolsSchema)", "``<labels><Language>``"
 
 "Accessibility" group
@@ -85,7 +87,7 @@ General attributes
    "**Accessibility**", "Whether the software is freely available for use.", "enum (from biotoolsSchema)", "``<labels><Accessibility>``"
    "**Cost**", "Monetary cost of acquiring the software.", "enum (from biotoolsSchema)", "``<labels><Cost>``"
 
-"Community" group
+"Support" group
 ^^^^^^^^^^^^^^^^^
 .. csv-table:: 
    :header: "Attribute", "Description", "Format", "element"
