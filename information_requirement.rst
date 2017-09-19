@@ -8,10 +8,16 @@ bio.tools information standard
 
 `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_ provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
 
-* a list of tool attributes (see below) that must be specified (or stated as not being available) for an entry to be labelled in a 5 tier rating of annotation completeness and quality.  Some attributes are grouped (see tables on right) for purposes of determining adherance to the standard.
+* a list of tool attributes (see Table below) that must be specified (or stated as not being available) for an entry to be assigned in a 5 tier rating of entry completeness and quality.  Some attributes are grouped (see tables on right) for purposes of determining adherance to the standard.
 * a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.
 
-Adherence to some of the `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ are checked by automated QC checks within bio.tools whereas others must be manually verified by bio.tools curators.  Entries in which all attributes pass both the automated and manual checks will be labelled as "Verified" (and stamped with data of verification and last update) and will receive a label of annotation quality (from "NEEDS TO IMPROVE" through to "EXCELLENT").  Unverified entries will not receive a quality label, but will get a label of annotation completeness (from "PATCHY" through to "COMPREHENSIVE".)
+Adherence to some of guidelines is verified by automated QC checks within bio.tools, whereas others must be verified by manual inspection.
+
+The standard provides a basis for labelling of bio.tools entries in various ways.  If and how to use labels is currently `under discussion <https://github.com/bio-tools/biotoolsSchema/issues/77>`_
+* label of *entry completeness* (from "PATCHY" through to "COMPREHENSIVE")
+* label indicating whether an entry had been manually inspected
+* label indicating whether an entry conforms to the guidelines, passing both the automated and manual checks ("Verified" label and stamped with date of verification and last update)
+* label of overall *entry quality* (from "NEEDS TO IMPROVE" through to "EXCELLENT") conflating notions above
 
 .. image:: information_standard.png
 
