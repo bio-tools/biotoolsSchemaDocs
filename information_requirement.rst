@@ -14,6 +14,7 @@ bio.tools information standard
 Adherence to some of guidelines is verified by automated QC checks within bio.tools, whereas others must be verified by manual inspection.
 
 The standard provides a basis for labelling of bio.tools entries in various ways.  If and how to use labels is currently `under discussion <https://github.com/bio-tools/biotoolsSchema/issues/77>`_
+
 * label of *entry completeness* (from "PATCHY" through to "COMPREHENSIVE")
 * label indicating whether an entry had been manually inspected
 * label indicating whether an entry conforms to the guidelines, passing both the automated and manual checks ("Verified" label and stamped with date of verification and last update)
