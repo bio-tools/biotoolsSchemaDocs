@@ -8,12 +8,12 @@ bio.tools information standard
 
 `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_ provides the foundation for an *information standard* for the description of tools that is being adopted by https://bio.tools.  The standard has two components:
 
-* a list of tool attributes (see Table below) that must be specified (or stated as not being available) for an entry to be assigned in a 5 tier rating of entry completeness and quality.  Some attributes are grouped (see tables on right) for purposes of determining adherance to the standard.
-* a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* things that go beyond syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.
+* a list of tool attributes (see Table below) that must be specified (or stated as not being available) for an entry to be assigned in a 5 tier ratings of entry completeness and quality.  Some attributes are grouped (see tables on right) for purposes of determining adherance to the standard.
+* a set of `Curation Guidelines <http://biotools.readthedocs.io/en/latest/curators_guide.html>`_ describing *how* each attribute should be specified, *i.e.* concerning the *quality* of an entry.  The guidelines go beyond the syntactic and semantic constraints defined by `biotoolsSchema <https://github.com/bio-tools/biotoolsSchema/>`_.
 
 Adherence to some of guidelines is verified by automated QC checks within bio.tools, whereas others must be verified by manual inspection.
 
-The standard provides a basis for monitoring and labelling of bio.tools entries in various ways:
+The standard provides a basis for monitoring of content and labelling of bio.tools entries in various ways:
 
 * label of *entry completeness* (from "PATCHY" through to "COMPREHENSIVE")
 * label indicating whether an entry was manually inspected
