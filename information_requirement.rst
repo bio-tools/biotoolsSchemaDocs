@@ -13,7 +13,7 @@ bio.tools information standard
 
 Adherence to some of guidelines is verified by automated QC checks within bio.tools, whereas others must be verified by manual inspection.
 
-The standard provides a basis for labelling of bio.tools entries in various ways:
+The standard provides a basis for monitoring and labelling of bio.tools entries in various ways:
 
 * label of *entry completeness* (from "PATCHY" through to "COMPREHENSIVE")
 * label indicating whether an entry was manually inspected
