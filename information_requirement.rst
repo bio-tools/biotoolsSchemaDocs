@@ -79,6 +79,7 @@ General attributes
    :widths: 15, 75, 10, 10
     
    "**General documentation**", "General documentation", "URL", "``<documentation><type>General</type>``"
+   "**Manual**", "Information on how to use the software.", "URL", "``<documentation><type>Manual</type>``"
    "**API documentation**", "Human-readable API documentation.", "URL", "``<documentation><type>API documentation</type>``"
    "**API specification**", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file.", "URL", "``<download><type>API specification</type>``"
 
