@@ -15,13 +15,19 @@ Adherence to some of guidelines is verified by automated QC checks within bio.to
 
 The standard provides a basis for monitoring of content and labelling of bio.tools entries in various ways:
 
-* label of *entry completeness* (from "PATCHY" through to "COMPREHENSIVE")
-* label indicating whether an entry was manually inspected
-* label indicating whether an entry conforms to the guidelines, passing both the automated and manual checks (*e.g.* "Verified" label stamped with dates of verification and last update)
-* label of overall *entry quality* (from "NEEDS TO IMPROVE" through to "EXCELLENT") conflating notions above (see infographic below)
+* *entry completeness* (from "SPARSE" through to "COMPREHENSIVE")
+* whether an entry was manually inspected
+* whether an entry is verified, *i.e.* conforms to the guidelines, passing both the automated and manual checks (stamps of dates of verification and last update would be needed)
+* overall *entry quality* (from "NEEDS TO IMPROVE" through to "EXCELLENT") conflating notions above (see infographic below)
 
 If and how to use labels is currently `under discussion <https://github.com/bio-tools/biotoolsSchema/issues/77>`_.
-  
+
+
+The standard will be applied to bio.tool as follows:
+* "SPARSE" : minimum information requirement for new entries.  Such entries will be invisible by default (see below) and this fact will be made clear to the registrant, via the UI.
+* "BASIC DETAILS" : level at which an entry becomes visible (by default).  Entry visibility will be settable by the user with an option to "Show more results" (*i.e.* over invisible entries)
+
+
 .. image:: information_standard.png
 
 Why is a standard needed at all?
