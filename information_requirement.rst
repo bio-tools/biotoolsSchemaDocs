@@ -24,6 +24,7 @@ If and how to use labels is currently `under discussion <https://github.com/bio-
 
 
 The standard will be applied to bio.tool as follows:
+
 * "SPARSE" : minimum information requirement for new entries.  Such entries will be invisible by default (see below) and this fact will be made clear to the registrant, via the UI.
 * "BASIC DETAILS" : level at which an entry becomes visible (by default).  Entry visibility will be settable by the user with an option to "Show more results" (*i.e.* over invisible entries)
 
