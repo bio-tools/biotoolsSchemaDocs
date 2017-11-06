@@ -15,7 +15,7 @@ Adherence to some of guidelines is verified by automated QC checks within bio.to
 
 The standard provides a basis for monitoring of content and labelling of bio.tools entries in various ways:
 
-* *entry completeness* (from "SPARSE" through to "COMPREHENSIVE")
+* *entry completeness* ("SPARSE" through to "COMPREHENSIVE")
 * whether an entry was manually inspected
 * whether an entry is verified, *i.e.* conforms to the guidelines, passing both the automated and manual checks (stamps of dates of verification and last update would be needed)
 * overall *entry quality* (from "NEEDS TO IMPROVE" through to "EXCELLENT") conflating notions above (see infographic below)
