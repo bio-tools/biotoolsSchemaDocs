@@ -65,15 +65,13 @@ Each software entity has one more functions, each corresponding to a mode of ope
 For each operation, data or format element, an EDAM concept URL and/or term are specified.  
 
 .. important:
-   * The URL must be in the appropriate EDAM Operation | Data | Format namespace, *i.e.*
+   The URL must be in the appropriate EDAM Operation | Data | Format namespace, *i.e.*
 
-     http://edamontology.org/operation_
+   http://edamontology.org/operation_
+   http://edamontology.org/data_
+   http://edamontology.org/format_
 
-     http://edamontology.org/data_
-
-     http://edamontology.org/format_
-
-   * The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
+   The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
    
 .. image:: images/function.png
 	   
@@ -120,7 +118,7 @@ Labels group
    "license", "Software or data usage license.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "collectionID", "Tag for a collection that the software has been assigned to within bio.tools.", "xs:token (restriction)", "0 or more"
    "maturity", "How mature the software product is.", "enum (see `link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_)", "0 or 1"
-   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_.)", "0 or 1"
+   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_)", "0 or more"
 
 .. note::
