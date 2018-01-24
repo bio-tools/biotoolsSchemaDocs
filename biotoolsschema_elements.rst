@@ -61,10 +61,22 @@ Function group
 ^^^^^^^^^^^^^^
 *Details of a function (i.e. mode of operation) the software provides, expressed in terms from the EDAM ontology.*
 
-Each software entity has one more functions, each corresponding to a mode of operation that the software provides.  Each function performs one or more basic operations, and has zero or more primary input and/or output data, each of a specified type and supported format(s).  For each operation, data or format, an EDAM concept URL and (optionally) term are specified.  The URL must be in the appropriate EDAM Operation | Data | Format namespace, *i.e.* http://edamontology.org/operation_ | data_ | format_.  The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
+Each software entity has one more functions, each corresponding to a mode of operation that the software provides.  Each function performs one or more basic operations, and has zero or more primary input and/or output data, each of a specified type and supported format(s).
+For each operation, data or format element, an EDAM concept URL and/or term are specified.  
 
+.. important:
+   * The URL must be in the appropriate EDAM Operation | Data | Format namespace, *i.e.*
+
+     http://edamontology.org/operation_
+
+     http://edamontology.org/data_
+
+     http://edamontology.org/format_
+
+   * The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
+   
 .. image:: images/function.png
-
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
