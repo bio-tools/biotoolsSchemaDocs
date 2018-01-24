@@ -73,17 +73,15 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    * http://edamontology.org/format_1929
 
    The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
-   
-.. image:: images/function.png
 
+
+.. image:: images/function.png
 	   
 .. image:: images/operation.png
 
    Data and Format are modelled in the same way as Operation (shown above).
-	   
-test
+  
 
-   
 .. csv-table::
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
