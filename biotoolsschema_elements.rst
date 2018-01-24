@@ -3,7 +3,7 @@ biotoolsSchema elements
 
 Element groups
 --------------
-biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 10 logical groupings (see below).
+biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 11 logical groupings (see below).
 
 
 .. image:: images/tool.png
@@ -208,3 +208,9 @@ Credits group
    "typeEntity", "Type of entity that is credited.", "enum (see Table XXX)", "0 or 1"
    "typeRole", "Role performed by entity that is credited.", "enum (see Table XXX)", "0 or more"
    "comment", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
+
+ELIXIR information
+^^^^^^^^^^^^^^^^^^
+*Information for ELIXIR internal purposes, maintained by ELIXIR Hub.*
+
+See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
