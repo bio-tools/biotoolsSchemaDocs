@@ -61,7 +61,6 @@ Each software entity has one more functions, each corresponding to a mode of ope
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
-   "Attribute", "Description", "Type", "Cardinality"
    "operation", "The basic operation(s) performed by this software function (EDAM Operation).", "Ontology concept (restriction)", "1 or more"
    "input", "*Details of primary input data.*", "-", "-"
    "input->data", "Type of primary input data, if any (EDAM data). ", "Ontology concept (restriction)", "1 only"
@@ -85,7 +84,6 @@ Labels group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "Attribute", "Description", "Type", "Cardinality"
    "toolType", "A type of application software: a discrete software entity can have more than one type.", "enum (see Table XXX)", "0 or more"
    "topic", "General scientific domain the software serves or other general category: one of EDAM Topic URL or term is specified.", "Ontology concept (restriction)", "0 or more"
    "topic->url", "URL of an EDAM Topic concept.", "URL (restriction)", "0 or 1"
@@ -124,7 +122,6 @@ Links group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "Element", "Description", "Type", "Cardinality"
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
    "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (Table XXX)", "1 only"
    "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
@@ -141,7 +138,6 @@ Download group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
-   "Element", "Description", "Type", "Cardinality"
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
    "type", "Type of download that is linked to.", "enum (Table XXX)", "1 only"
    "comment", "Comment about the download.", "xs:token (restriction)", "0 or 1"
@@ -163,7 +159,6 @@ Documentation group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "Element", "Description", "Type", "Cardinality"
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
    "type", "Type of documentation that is linked to.", "enum (Table XXX)", "1 only"
    "comment", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
@@ -180,7 +175,6 @@ Publications group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "Attribute", "Description", "Type", "Cardinality"
    "pmcid", "PubMed Central Identifier of a publication about the software.", "xs:token (restriction)", "1 only"
    "pmid", "PubMed Identifier.", "xs:token (restriction)", "1 only"
    "doi", "Digital Object Identifier.", "xs:token (restriction)", "1 only"
@@ -198,7 +192,6 @@ Credits group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "Attribute", "Description", "Type", "Cardinality"
    "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
    "orcidId", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "gridId", "Unique identifier (GRID ID) of an organisation that is credited.", "xs:token (restriction)", "0 or 1"

@@ -10,13 +10,17 @@ Documentation
 -------------
 Full documentation of biotoolsSchema is available at:
 
-- `GitHub <https://github.com/bio-tools/biotoolsSchema/blob/master/versions/biotools-2.0.0/docs/biotools-2.0.0.html>`_ (version 2.0.0, latest stable version)
+- `GitHub <https://github.com/bio-tools/biotoolsSchema/>`_ 
 
-Version 2.0.0 is being supported in `bio.tools <https://bio.tools>`_ in 3 stages.  Support is currently at stage 1 (see `g-doc <https://docs.google.com/document/d/1tqw7FELV4F_qzrTA9KpVYoORAeFPyY1ZOjaGTPN2H1E/edit#heading=h.fffoc8urhpt8>`_).
+Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 is currently being rolled out in a staged manner (see (see `g-doc <https://docs.google.com/document/d/1tqw7FELV4F_qzrTA9KpVYoORAeFPyY1ZOjaGTPN2H1E/edit#heading=h.fffoc8urhpt8>`_).
 
 
 Download
 --------
+Latest stable version
+
+- https://github.com/bio-tools/biotoolsSchema/blob/master/biotools.xsd (version 2.0.0)
+
 Current development version
 
 - https://github.com/bio-tools/biotoolsSchema/blob/master/biotools_dev.xsd
