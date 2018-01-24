@@ -24,31 +24,6 @@ biotoolsSchema includes scientific, technical and administrative software attrib
    "Publications", "publication", "Publications about the software."
    "Credits", "credit", "Individuals or organisations that should be credited, or may be contacted about the software."
 
-Controlled vocabularies
------------------------
-biotoolsSchema defines 16 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
-
-.. csv-table::
-   :header: "Vocabulary", "Description", "Link"
-   :widths: 25, 50, 50
-
-   "tool type ", "The type of application software.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_"
-   "operating system ", "The operating system supported by a downloadable software package, e.g. 'Linux'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_"
-   "programming language ", "Name of programming language the software source code was written in, e.g. 'C'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
-   "license ", "Software or data usage license, e.g. 'GPL-3.0'", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
-   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
-   "maturity ", "How mature the software product is, e.g. 'Mature'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_"
-   "cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`_"
-   "accessibility ", "Whether the software is freely available for use, e.g. 'Open access'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_"
-   "link type", "The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_"
-   "download type ", "Type of download that is linked to, e.g. 'Source code'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`_"
-   "documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id71>`_"
-   "publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_"
-   "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_"
-   "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_"
-   "disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
-   "containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
-
 
 Elements
 --------
@@ -59,6 +34,8 @@ Summary group
 *Basic information about the software.*
 
 .. image:: images/summary.png
+
+.. image:: images/otherid.png
 	   
 .. csv-table::
    :header: "Element", "Description", "Type", "Cardinality"
@@ -73,7 +50,7 @@ Summary group
    "version", "Version information (typically a version number) of the software applicable to this bio.tools entry.", "xs:token (restriction)", "0 or more"
    "otherID", "A unique identifier of the software, typically assigned by an ID-assignment authority other than bio.tools.", "(see below)", "0 or more"
    "otherID->value", "Value of tool identifier.", "xs:token (restriction)", "1 only"
-   "otherID->type", "Type of tool identifier.", "enum (see Table XXX)", "0 or 1"
+   "otherID->type", "Type of tool identifier.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "otherID->version", "Version information (typically a version number) of the software applicable to this identifier.", "xs:token (restriction)", "0 or 1"
 
 .. note::
@@ -119,7 +96,7 @@ Labels group
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "toolType", "A type of application software: a discrete software entity can have more than one type.", "enum (see Table XXX)", "0 or more"
+   "toolType", "A type of application software: a discrete software entity can have more than one type.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_)", "0 or more"
    "topic", "General scientific domain the software serves or other general category: one of EDAM Topic URL or term is specified.", "Ontology concept (restriction)", "0 or more"
    "topic->url", "URL of an EDAM Topic concept.", "URL (restriction)", "0 or 1"
    "topic->term", "An EDAM Topic term (preferred label or synonym).", "xs:token", "0 or 1"
@@ -160,7 +137,7 @@ Links group
    :widths: 25, 50, 50, 100
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
-   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (Table XXX)", "1 only"
+   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_)", "1 only"
    "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
    "isAvailable", "Used (with value of "Not available") when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
@@ -179,10 +156,10 @@ Download group
    :widths: 25, 50, 50, 100
 
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
-   "type", "Type of download that is linked to.", "enum (Table XXX)", "1 only"
+   "type", "Type of download that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`_)", "1 only"
    "comment", "Comment about the download.", "xs:token (restriction)", "0 or 1"
-   "diskFormat", "Virtual machine image disk format.", "enum (Table XXX)", "0 or 1"
-   "containerFormat", "Virtual machine container format.", "enum (Table XXX)", "0 or 1"
+   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
+   "containerFormat", "Virtual machine container format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "cmd", "A useful command pertinent to the download, e.g. for getting or installing a tool.", "xs:token (restriction)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
    "isAvailable", "Used (with value of "Not available") when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
@@ -201,7 +178,7 @@ Documentation group
    :widths: 25, 50, 50, 100
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
-   "type", "Type of documentation that is linked to.", "enum (Table XXX)", "1 only"
+   "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_)", "1 only"
    "comment", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
    "isAvailable", "Used (with value of "Not available") when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
@@ -221,7 +198,7 @@ Publications group
    "pmcid", "PubMed Central Identifier of a publication about the software.", "xs:token (restriction)", "1 only"
    "pmid", "PubMed Identifier.", "xs:token (restriction)", "1 only"
    "doi", "Digital Object Identifier.", "xs:token (restriction)", "1 only"
-   "type", "Type of publication.", "enum (Table XXX)", "0 or 1"
+   "type", "Type of publication.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
    "isAvailable", "Used (with value of "Not available") when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
 
@@ -244,8 +221,8 @@ Credits group
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
    "tel", "Telephone number.", "xs:token (restriction)", "0 or 1"
-   "typeEntity", "Type of entity that is credited.", "enum (see Table XXX)", "0 or 1"
-   "typeRole", "Role performed by entity that is credited.", "enum (see Table XXX)", "0 or more"
+   "typeEntity", "Type of entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_)", "0 or 1"
+   "typeRole", "Role performed by entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_)", "0 or more"
    "comment", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
 .. note::
@@ -256,3 +233,30 @@ ELIXIR information
 *Information for ELIXIR internal purposes, maintained by ELIXIR Hub.*
 
 See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
+
+
+Controlled vocabularies
+-----------------------
+biotoolsSchema defines 16 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
+
+.. csv-table::
+   :header: "Vocabulary", "Description", "Link"
+   :widths: 25, 50, 50
+
+   "tool type ", "The type of application software.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_"
+   "operating system ", "The operating system supported by a downloadable software package, e.g. 'Linux'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_"
+   "programming language ", "Name of programming language the software source code was written in, e.g. 'C'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+   "license ", "Software or data usage license, e.g. 'GPL-3.0'", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
+   "maturity ", "How mature the software product is, e.g. 'Mature'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_"
+   "cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`_"
+   "accessibility ", "Whether the software is freely available for use, e.g. 'Open access'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_"
+   "link type", "The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_"
+   "download type ", "Type of download that is linked to, e.g. 'Source code'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`_"
+   "documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id71>`_"
+   "publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_"
+   "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_"
+   "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_"
+   "disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
+   "containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
+

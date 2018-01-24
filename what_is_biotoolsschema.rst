@@ -10,7 +10,7 @@ Documentation
 -------------
 Full documentation of biotoolsSchema is available at:
 
-- `GitHub <https://github.com/bio-tools/biotoolsSchema/>`_ 
+- `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_ 
 
 Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 is currently being rolled out in a staged manner (see `g-doc <https://docs.google.com/document/d/1tqw7FELV4F_qzrTA9KpVYoORAeFPyY1ZOjaGTPN2H1E/edit#heading=h.fffoc8urhpt8>`_).
 
