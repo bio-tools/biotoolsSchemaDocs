@@ -36,54 +36,22 @@ Elements
    :widths: 25, 50, 50
 
 
-tool type 
-The type of application software.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_
-operating system 
-The operating system supported by a downloadable software package, e.g. 'Linux'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_
-programming language 
-Name of programming language the software source code was written in, e.g. 'C'.
-`link <https://github.com/bio-tools/biotoolsSchema/>`_
-license 
-Software or data usage license, e.g. 'GPL-3.0'
-`link <https://github.com/bio-tools/biotoolsSchema/>`_
-relation type 
-Type of relation between this and another registered software, e.g. 'isInterfaceTo'.
-`link <https://github.com/bio-tools/biotoolsSchema/>`_
-maturity 
-How mature the software product is, e.g. 'Mature'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_
-cost 
-Monetary cost of acquiring the software, e.g. 'Free of charge'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`_
-accessibility 
-Whether the software is freely available for use, e.g. 'Open access'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_
-link type
-The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_
-download type 
-Type of download that is linked to, e.g. 'Source code'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`_
-documentation type 
-Type of documentation that is linked to, e.g. 'API documentation'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id71>`_
-publication type 
-Type of publication, e.g. 'Review'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_
-entity type 
-Types of entities that may be credited, e.g. 'Person'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_
-entity role 
-Roles that may be assigned to creditable entities, e.g. 'Developer'.
-`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_
-disk image format 
-Virtual machine disk image format, e.g. 'aki'.
-`link <https://github.com/bio-tools/biotoolsSchema/>`_
-containers format
-Virtual machine container format, e.g. 'singularity'.
-`link <https://github.com/bio-tools/biotoolsSchema/>`_
+"tool type ", "The type of application software.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_"
+"operating system ", "The operating system supported by a downloadable software package, e.g. 'Linux'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_"
+"programming language ", "Name of programming language the software source code was written in, e.g. 'C'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+"license ", "Software or data usage license, e.g. 'GPL-3.0'", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+"relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+"maturity ", "How mature the software product is, e.g. 'Mature'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_"
+"cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`_"
+"accessibility ", "Whether the software is freely available for use, e.g. 'Open access'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_"
+"link type", "The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_"
+"download type ", "Type of download that is linked to, e.g. 'Source code'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`_"
+"documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id71>`_"
+"publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_"
+"entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_"
+"entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_"
+"disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+"containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
 	    
 
 Summary group
