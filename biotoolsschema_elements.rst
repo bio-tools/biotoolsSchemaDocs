@@ -115,13 +115,13 @@ Labels group
    "goTermID", "Gene function including molecular function, cellular component and biological process.  Miscellaneous ontology annotation. The ID of Gene Ontology (GO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
    "soTermID", "Features which can be located on a biological sequence. The ID of Sequence Ontology (SO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
    "taxId", "NCBI taxonomy ID of taxonomic group the software (particularly database portals) caters for.", "xs:token (restriction)", "0 or more"
-   "operatingSystem", "The operating system supported by a downloadable software package.", "enum (see below)", "0 or more"
-   "language", "Name of programming language the software source code was written in.", "enum", "0 or more"
-   "license", "Software or data usage license.", "enum", "0 or 1"
+   "operatingSystem", "The operating system supported by a downloadable software package.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_)", "0 or more"
+   "language", "Name of programming language the software source code was written in.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/>`_)", "0 or more"
+   "license", "Software or data usage license.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "collectionID", "Tag for a collection that the software has been assigned to within bio.tools.", "xs:token (restriction)", "0 or more"
-   "maturity", "How mature the software product is.", "enum", "0 or 1"
-   "cost", "Monetary cost of acquiring the software.", "enum", "0 or 1"
-   "accessibility", "Whether the software is freely available for use.", "enum", "0 or more"
+   "maturity", "How mature the software product is.", "enum (see `link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_)", "0 or 1"
+   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_.)", "0 or 1"
+   "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`_.
