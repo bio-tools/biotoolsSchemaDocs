@@ -5,6 +5,9 @@ Element groups
 --------------
 biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 10 logical groupings (see below).
 
+
+.. image:: images/tool.png
+
 .. csv-table::
    :header: "Group", "XSD element", "Description"
    :widths: 25, 50, 50, 100
@@ -24,7 +27,10 @@ Elements
 
 Summary group
 ^^^^^^^^^^^^^
+*Basic information about the software.*
 
+.. image:: images/tool.png
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
@@ -45,8 +51,11 @@ Summary group
 	    
 Function group
 ^^^^^^^^^^^^^^
+*Details of a function (i.e. mode of operation) the software provides, expressed in terms from the EDAM ontology.*
 
 Each software entity has one more functions, each corresponding to a mode of operation that the software provides.  Each function performs one or more basic operations, and has zero or more primary input and/or output data, each of a specified type and supported format(s).  For each operation, data or format, an EDAM concept URL and (optionally) term are specified.  The URL must be in the appropriate EDAM Operation | Data | Format namespace, *i.e.* http://edamontology.org/operation_ | data_ | format_.  The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
+
+.. image:: images/function.png
 
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
@@ -68,7 +77,10 @@ Each software entity has one more functions, each corresponding to a mode of ope
    
 Labels group
 ^^^^^^^^^^^^
+*Miscellaneous scientific, technical and administrative details of the software, expressed in terms from controlled vocabularies.*
 
+.. image:: images/labels.png
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
@@ -92,16 +104,21 @@ Labels group
 
 Relation group
 ^^^^^^^^^^^^^^
+*Details of a relationship this software shares with other software registered in bio.tools.*
 
 See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
 
 API spec group
 ^^^^^^^^^^^^^^
+*Details of the API to a service including service endpoints.*
 
 See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
 
 Links group
 ^^^^^^^^^^^
+*Miscellaneous links for the software e.g. repository, issue tracker or mailing list.*
+
+.. image:: images/link.png
 
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
@@ -116,6 +133,9 @@ Links group
 
 Download group
 ^^^^^^^^^^^^^^
+*Links to downloads for the software, e.g. source code, virtual machine image or container.*
+
+.. image:: images/download.png
 
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
@@ -135,7 +155,10 @@ Download group
 
 Documentation group
 ^^^^^^^^^^^^^^^^^^^
+*Links to documentation about the software e.g. manual, API specification or training material.*
 
+.. image:: images/documentation.png
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
@@ -149,7 +172,10 @@ Documentation group
    
 Publications group
 ^^^^^^^^^^^^^^^^^^
+*Publications about the software*
 
+.. image:: images/publication.png
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
@@ -164,7 +190,10 @@ Publications group
    
 Credits group
 ^^^^^^^^^^^^^
+*Individuals or organisations that should be credited, or may be contacted about the software.*
 
+.. image:: images/credit.png
+	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
