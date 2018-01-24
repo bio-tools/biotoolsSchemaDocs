@@ -15,7 +15,8 @@ Contents:
    :maxdepth: 2
 
    What is biotoolsSchema <what_is_biotoolsschema>
-   Information requirement <information_requirement>
+   biotoolsSchema elements <biotoolsschema_elements>
+   Information standard <information_standard>
    Contributors <contributors>
    License <license>
 

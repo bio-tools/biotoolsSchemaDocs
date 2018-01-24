@@ -2,7 +2,9 @@ What is biotoolsSchema?
 =======================
 **biotoolsSchema** is a formalised XML schema (XSD) which defines a description model for bioinformatics software.  It can be used to describe bioinformatics tools - application software with well-defined data processing functions (inputs, outputs and operations).   This includes simple tools with one or a few closely related functions, and complex, multimodal tools with many functions, tools available available for immediate use as online services, or in a form which which you can download, install, configure and run yourself.  
 
-biotoolsSchema defines 50 important scientific, technical and administrative attributes.  It concentrates upon the salient common features, with a minimal core of 7 attributes, mandating the necessary and sufficient information to support cataloguing and discovery of software.  It is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
+biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including ontology concept IDs for specialised scientific and technical aspects.  Verbose information are referred to by URL.
+
+It is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
 
 Documentation
 -------------
@@ -40,7 +42,7 @@ Motivation
 Bioinformaticians routinely use a large and diverse set of tools and data, and demand powerful and convenient means to organise, find, understand, compare, select, use and connect the available resources. These tasks rely on consistent, machine-understandable resource descriptions. The need - filled by biotoolsSchema - is for an information model that puts the description of a broad range of resources  on a consistent syntactic basis. 
 
 Citing biotoolsSchema
------------
+---------------------
 If you use biotoolsSchema, please cite:
 
 Ison, J. et al. (2016). Tools and data services registry: a community effort to document bioinformatics resources. *Nucleic Acids Research*, **44** (D1): D38-D47.

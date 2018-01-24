@@ -1,5 +1,5 @@
-Information requirement
-=======================
+Tool information standard
+=========================
 
 bio.tools information standard
 ------------------------------
