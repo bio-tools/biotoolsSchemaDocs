@@ -1,6 +1,9 @@
 biotoolsSchema elements
 =======================
 
+A summary of elements in biotoolsSchema is below, focussing on what is currently supported in https://bio.tools.  For further information, please see the `comprehensive documentation <https://github.com/bio-tools/biotoolsschema/stable>`_ on GitHub.
+
+
 Element groups
 --------------
 biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 11 logical groupings (see below).
@@ -32,7 +35,7 @@ Summary group
 .. image:: images/summary.png
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
       
    "name", "Canonical software name assigned by the software developer or service provider.", "xs:token (restriction)", "1 only"
@@ -47,6 +50,8 @@ Summary group
    "otherID->type", "Type of tool identifier.", "enum (see Table XXX)", "0 or 1"
    "otherID->version", "Version information (typically a version number) of the software applicable to this identifier.", "xs:token (restriction)", "0 or 1"
 
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>`_
 
 	    
 Function group
@@ -72,7 +77,11 @@ Each software entity has one more functions, each corresponding to a mode of ope
    "operation | data | format | topic->term", "An EDAM Operation | Data | Format term (preferred label or synonym).", "xs:token", "0 or 1"
    "comment", "Concise comment about this function, if not apparent from the software description and EDAM annotations.", "xs:token (restriction)", "0 or 1"
    "cmd", "Relevant command, command-line fragment or option for executing this function / running the tool in this mode.", "xs:token (restriction)", "0 or 1"
-   
+
+
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>`_
+      
    
 Labels group
 ^^^^^^^^^^^^
@@ -99,6 +108,8 @@ Labels group
    "cost", "Monetary cost of acquiring the software.", "enum", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum)", "0 or more"
 
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`_   
 
 Relation group
 ^^^^^^^^^^^^^^
@@ -127,6 +138,9 @@ Links group
    "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
    "isAvailable", "Used (with value of "Not available") when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#links-group>`_
+   
 
 Download group
 ^^^^^^^^^^^^^^
@@ -147,7 +161,8 @@ Download group
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
    "isAvailable", "Used (with value of "Not available") when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
-
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`_
 
 Documentation group
 ^^^^^^^^^^^^^^^^^^^
@@ -164,6 +179,8 @@ Documentation group
    "comment", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
    "isAvailable", "Used (with value of "Not available") when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`_   
    
 Publications group
 ^^^^^^^^^^^^^^^^^^
@@ -181,6 +198,9 @@ Publications group
    "type", "Type of publication.", "enum (Table XXX)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
    "isAvailable", "Used (with value of "Not available") when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
+
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`_
    
 Credits group
 ^^^^^^^^^^^^^
@@ -202,6 +222,9 @@ Credits group
    "typeRole", "Role performed by entity that is credited.", "enum (see Table XXX)", "0 or more"
    "comment", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
+   .. note::
+      See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credits-group>`_
+   
 ELIXIR information
 ^^^^^^^^^^^^^^^^^^
 *Information for ELIXIR internal purposes, maintained by ELIXIR Hub.*
