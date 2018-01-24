@@ -76,6 +76,7 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    
 .. image:: images/function.png
 
+	   
 .. image:: images/operation.png
 
    Data and Format are modelled in the same way as Operation (shown above).
@@ -86,10 +87,10 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    :widths: 25, 50, 50, 100
 
    "operation", "The basic operation(s) performed by this software function (EDAM Operation).", "Ontology concept (restriction)", "1 or more"
-   "input", "*Details of primary input data.*", "-", "-"
+   "input", "*Details of primary input data.*", "", ""
    "input->data", "Type of primary input data, if any (EDAM data). ", "Ontology concept (restriction)", "1 only"
    "input->format", "Allowed format(s) of the input data (EDAM Format). ", "Ontology concept (restriction)", "0 or more"
-   "output", "*Details of primary output data.*", "-", "-"
+   "output", "*Details of primary output data.*", "", ""
    "output->data", "Type of primary output data, if any (EDAM Data).", "Ontology concept (restriction)", "1 only"
    "output->format", "Allowed format(s) of the output data (EDAM Format).", "Ontology concept (restriction)", "0 or more"
    "operation | data | format | topic->url", "URL of an EDAM Operation | Data | Format concept.", "URL (restriction)",  "0 or 1"
