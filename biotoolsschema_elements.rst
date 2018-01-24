@@ -121,7 +121,7 @@ Labels group
    "collectionID", "Tag for a collection that the software has been assigned to within bio.tools.", "xs:token (restriction)", "0 or more"
    "maturity", "How mature the software product is.", "enum", "0 or 1"
    "cost", "Monetary cost of acquiring the software.", "enum", "0 or 1"
-   "accessibility", "Whether the software is freely available for use.", "enum)", "0 or more"
+   "accessibility", "Whether the software is freely available for use.", "enum", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`_   
@@ -130,13 +130,13 @@ Relation group
 ^^^^^^^^^^^^^^
 *Details of a relationship this software shares with other software registered in bio.tools.*
 
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
+See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_.
 
 API spec group
 ^^^^^^^^^^^^^^
 *Details of the API to a service including service endpoints.*
 
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
+See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_.
 
 Links group
 ^^^^^^^^^^^
@@ -145,7 +145,7 @@ Links group
 .. image:: images/link.png
 
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
@@ -164,7 +164,7 @@ Download group
 .. image:: images/download.png
 
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
@@ -186,7 +186,7 @@ Documentation group
 .. image:: images/documentation.png
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
@@ -204,7 +204,7 @@ Publications group
 .. image:: images/publication.png
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
    "pmcid", "PubMed Central Identifier of a publication about the software.", "xs:token (restriction)", "1 only"
@@ -224,7 +224,7 @@ Credits group
 .. image:: images/credit.png
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
    "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
@@ -244,7 +244,7 @@ ELIXIR information
 ^^^^^^^^^^^^^^^^^^
 *Information for ELIXIR internal purposes, maintained by ELIXIR Hub.*
 
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/versions/biotools-3.0.0-rc/docs>`_.
+See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_.
 
 
 Controlled vocabularies
