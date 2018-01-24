@@ -29,7 +29,7 @@ Summary group
 ^^^^^^^^^^^^^
 *Basic information about the software.*
 
-.. image:: images/tool.png
+.. image:: images/summary.png
 	   
 .. csv-table::
    :header: "Element", ""Description", "Type", "Cardinality"
