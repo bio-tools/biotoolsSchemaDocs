@@ -124,7 +124,7 @@ Labels group
    "accessibility", "Whether the software is freely available for use.", "enum", "0 or more"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`_   
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`_.
 
 Relation group
 ^^^^^^^^^^^^^^
@@ -153,8 +153,9 @@ Links group
    "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
    "isAvailable", "Used (with value of "Not available") when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
+   
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#links-group>`_
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#links-group>`_.
    
 
 Download group
@@ -177,7 +178,7 @@ Download group
    "isAvailable", "Used (with value of "Not available") when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`_
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`_.
 
 Documentation group
 ^^^^^^^^^^^^^^^^^^^
@@ -195,7 +196,7 @@ Documentation group
    "isAvailable", "Used (with value of "Not available") when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`_   
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`_.
    
 Publications group
 ^^^^^^^^^^^^^^^^^^
@@ -215,7 +216,7 @@ Publications group
    "isAvailable", "Used (with value of "Not available") when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`_
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`_.
    
 Credits group
 ^^^^^^^^^^^^^
@@ -238,7 +239,7 @@ Credits group
    "comment", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credits-group>`_
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credits-group>`_.
    
 ELIXIR information
 ^^^^^^^^^^^^^^^^^^
