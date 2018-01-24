@@ -1,7 +1,7 @@
 biotoolsSchema elements
 =======================
 
-A summary of elements in biotoolsSchema is below, focussing on what is currently supported in https://bio.tools.  For further information, please see the `comprehensive documentation <https://github.com/bio-tools/biotoolsschema/stable>`_ on GitHub.
+A summary of elements in biotoolsSchema is below, focussing on what is currently supported in `bio.tools <https://bio.tools>`_.  For further information, please see the `comprehensive documentation <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_ on GitHub.
 
 
 Element groups
@@ -13,8 +13,8 @@ biotoolsSchema includes scientific, technical and administrative software attrib
 
 .. csv-table::
    :header: "Group", "XSD element", "Description"
-   :widths: 25, 50, 50, 100
-      
+   :widths: 25, 50, 50
+	    
    "Summary", "summary", "Basic information about the software."
    "Function", "function", "Details of the function(s) (i.e. modes of operation) the software provides, expressed in terms from the EDAM ontology."
    "Labels", "label", "Miscellaneous scientific, technical and administrative details of the software, expressed in terms from controlled vocabularies."
@@ -26,21 +26,17 @@ biotoolsSchema includes scientific, technical and administrative software attrib
 
 Controlled vocabularies
 -----------------------
-   
-
-Elements
---------
+biotoolsSchema defines 16 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
 
 .. csv-table::
    :header: "Vocabulary", "Description", "Link"
    :widths: 25, 50, 50
 
-
    "tool type ", "The type of application software.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_"
    "operating system ", "The operating system supported by a downloadable software package, e.g. 'Linux'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`_"
    "programming language ", "Name of programming language the software source code was written in, e.g. 'C'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
    "license ", "Software or data usage license, e.g. 'GPL-3.0'", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
-   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
+   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
    "maturity ", "How mature the software product is, e.g. 'Mature'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`_"
    "cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`_"
    "accessibility ", "Whether the software is freely available for use, e.g. 'Open access'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`_"
@@ -50,9 +46,13 @@ Elements
    "publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_"
    "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`_"
    "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`_"
-   "disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
-   "containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`_"
-	    
+   "disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
+   "containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_"
+
+
+Elements
+--------
+  
 
 Summary group
 ^^^^^^^^^^^^^
