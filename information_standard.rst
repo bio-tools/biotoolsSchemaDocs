@@ -29,7 +29,7 @@ The standard will be applied to bio.tool as follows:
 * "BASIC DETAILS" : level at which an entry becomes visible (by default).  Entry visibility will be settable by the user with an option to "Show more results" (*i.e.* over invisible entries)
 
 
-.. image:: information_standard.png
+.. image:: images/information_standard.png
 
 Why is a standard needed at all?
 --------------------------------	   
