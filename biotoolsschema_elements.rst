@@ -82,7 +82,7 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
 	   
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
    "operation", "The basic operation(s) performed by this software function (EDAM Operation).", "Ontology concept (restriction)", "1 or more"
@@ -109,7 +109,7 @@ Labels group
 .. image:: images/labels.png
 	   
 .. csv-table::
-   :header: "Element", ""Description", "Type", "Cardinality"
+   :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
    "toolType", "A type of application software: a discrete software entity can have more than one type.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`_)", "0 or more"
