@@ -76,7 +76,7 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
 
 
 .. image:: images/function.png
-	   
+
 .. image:: images/operation.png
 
    Data and Format are modelled in the same way as Operation (shown above).
