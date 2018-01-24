@@ -217,7 +217,7 @@ Publications group
    "doi", "Digital Object Identifier.", "xs:token (restriction)", "1 only"
    "type", "Type of publication.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`_)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
-   "isAvailable", "Used (with value of "Not available") when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
+   "isAvailable", "Used (with value of 'Not available') when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`_.
