@@ -151,7 +151,7 @@ Links group
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
    "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_)", "1 only"
    "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
-   "isAvailable", "Used (with value of "Not available") when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "isAvailable", "Used (with value of 'Not available') when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
    
 .. note::
@@ -175,7 +175,7 @@ Download group
    "containerFormat", "Virtual machine container format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_)", "0 or 1"
    "cmd", "A useful command pertinent to the download, e.g. for getting or installing a tool.", "xs:token (restriction)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
-   "isAvailable", "Used (with value of "Not available") when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "isAvailable", "Used (with value of 'Not available') when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`_.
@@ -193,7 +193,7 @@ Documentation group
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
    "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`_)", "1 only"
    "comment", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
-   "isAvailable", "Used (with value of "Not available") when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "isAvailable", "Used (with value of 'Not available') when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`_.
