@@ -1,2 +1,2 @@
 # biotoolsSchemaDocs
-Documentation for biotoolsSchema, hosted [here](http://biotoolsschemadocs.readthedocs.io/en/latest/).
+Documentation for biotoolsSchema, hosted [here](http://biotoolsschema.readthedocs.io/en/latest/).
