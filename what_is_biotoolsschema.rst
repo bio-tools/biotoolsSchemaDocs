@@ -8,10 +8,10 @@ biotoolsSchema is used by the ELIXIR Tools & Data Services Registry (`bio.tools 
 
 Documentation
 -------------
-Additional documentation for biotoolsSchema is available:
+These docs describe the latest stable version (currently 3.0.0) and are maintined in `GitHub <https://github.com/bio-tools/biotoolsschemadocs/>`_.  Additional documentation is available:
 
 - `Technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ maintained in `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/>`_ where you'll find example data files
-- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>_`
+- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>`_.
 
 .. note::
    Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 in in progress.
@@ -19,7 +19,7 @@ Additional documentation for biotoolsSchema is available:
 
 Download
 --------
-**Latest stable version**
+**Latest stable version** (3.0.0)
 
 - https://github.com/bio-tools/biotoolsSchema/blob/master/stable/biotools.xsd
 
@@ -34,7 +34,7 @@ Download
 
 Status
 ------
-biotoolsSchema is a mature schema having undergone a lot of community-driven revision (e.g. see `bio.tools events <http://biotools.readthedocs.io/en/latest/events.html>`_).  Development is use-case driven, primarily by `bio.tools <https://bio.tools>`_.  Future versions will not depart fundamentally from the current elements or structure.  The development of biotoolsSchema can be followed at `GitHub <https://github.com/bio-tools/biotoolsschema/>`_.  From version 2.0.0, version number follow the `MAJOR.MINOR.PATCH` pattern:
+biotoolsSchema is a mature schema having undergone a lot of community-driven revision (*e.g.* see `bio.tools events <http://biotools.readthedocs.io/en/latest/events.html>`_).  Development is use-case driven, primarily by `bio.tools <https://bio.tools>`_.  Future versions will not depart fundamentally from the current elements or structure.  The development of biotoolsSchema can be followed at `GitHub <https://github.com/bio-tools/biotoolsschema/>`_.  From version 2.0.0, version number follow the `MAJOR.MINOR.PATCH` pattern:
 
 * `MAJOR` version for incompatible API changes
 * `MINOR` version for addition of functionality in a backwards-compatible manner
