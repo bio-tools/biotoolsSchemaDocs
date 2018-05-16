@@ -156,12 +156,11 @@ Download group
 
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
    "type", "Type of download that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`__)", "1 only"
-   "comment", "Comment about the download.", "xs:token (restriction)", "0 or 1"
+   "note", "Comment about the download.", "xs:token (restriction)", "0 or 1"
    "diskFormat", "Virtual machine image disk format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
    "containerFormat", "Virtual machine container format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
-   "cmd", "A useful command pertinent to the download, e.g. for getting or installing a tool.", "xs:token (restriction)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
-   "isAvailable", "Used (with value of 'Not available') when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`__.
@@ -178,8 +177,7 @@ Documentation group
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
    "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`__)", "1 only"
-   "comment", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
-   "isAvailable", "Used (with value of 'Not available') when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "note", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`__.
@@ -199,7 +197,6 @@ Publications group
    "doi", "Digital Object Identifier.", "xs:token (restriction)", "1 only"
    "type", "Type of publication.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`__)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
-   "isAvailable", "Used (with value of 'Not available') when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`__.
@@ -213,25 +210,20 @@ Credits group
 .. csv-table::
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
-	    
+
+   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or 1"
+   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or 1"
    "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
-   "orcidId", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
-   "gridId", "Unique identifier (GRID ID) of an organisation that is credited.", "xs:token (restriction)", "0 or 1"
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
+   "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "tel", "Telephone number.", "xs:token (restriction)", "0 or 1"
    "typeEntity", "Type of entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__)", "0 or 1"
    "typeRole", "Role performed by entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`__)", "0 or more"
-   "comment", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
+   "note", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credits-group>`__.
    
-ELIXIR information
-^^^^^^^^^^^^^^^^^^
-*Information for ELIXIR internal purposes, maintained by ELIXIR Hub.*
-
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__.
-
 
 

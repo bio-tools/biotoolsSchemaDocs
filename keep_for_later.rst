@@ -17,3 +17,12 @@ API spec group
 See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__.
 
    "isAvailable", "Used (with value of 'Not available') when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "isAvailable", "Used (with value of 'Not available') when a download of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+
+"cmd", "A useful command pertinent to the download, e.g. for getting or installing a tool.", "xs:token (restriction)", "0 or 1"
+
+"isAvailable", "Used (with value of 'Not available') when documentation of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+
+   "isAvailable", "Used (with value of 'Not available') when a publication is known not to be available.", "enum ('Not available')", "0 or 1"
+
+   

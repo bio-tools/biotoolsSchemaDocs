@@ -21,6 +21,7 @@ biotoolsSchema defines 15 controlled vocabularies - as standarised enumerations 
    "publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`__"
    "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__"
    "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`__"
+   "ID type ", "Type of tool identifier, e.g. 'rrid'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#other-ids>`__"
 
 
 
@@ -262,3 +263,61 @@ Entity role
    "Primary contact", "The primary point of contact for the software."
 
 
+ID types
+--------
+*Type of tool identifier, e.g. "rrid"*
+
+.. csv-table::
+   :header: "Role", "Description"
+   :widths: 25, 100
+
+   "doi", "Digital Object Identifier of the software assigned (typically) by the software developer or service provider."
+   "rrid", "Research Resource Identifier as used by the NIH-supported Resource Identification Portal (https://scicrunch.org/resources)."
+   "cpe", "Common Platform Enumeration (CPE) identifier as listed in the CPE dictionary (https://cpe.mitre.org/dictionary/)."
+   "biotoolsCURIE", "bio.tools CURIE (secondary identifier)."      
+
+ELIXIR Platform
+---------------
+*Name of the ELIXIR Platform that is credited, e.g. "Tools"*
+
+.. csv-table::
+   :header: "ELIXIR Platform", "Description"
+   :widths: 25, 100
+	    
+   "Data", "ELIXIR Data Platform"
+   "Tools", "ELIXIR Tools Platform"
+   "Compute", "ELIXIR Compute Platform"
+   "Interoperability", "ELIXIR Interoperability Platform"
+   "Training", "ELIXIR Training Platform"
+
+
+ELIXIR Node
+-----------
+*Name of the ELIXIR Node that is credited, e.g. "Norway"*
+
+.. csv-table::
+   :header: "ELIXIR Node"
+   :widths: 25
+	    
+   "Belgium"
+   "Czech Republic"
+   "Denmark"
+   "EMBL"
+   "Estonia"
+   "Finland"
+   "France"
+   "Germany"
+   "Greece"
+   "Hungary"
+   "Ireland"
+   "Israel"
+   "Italy"
+   "Luxembourg"
+   "Netherlands"
+   "Norway"
+   "Portugal"
+   "Slovenia"
+   "Spain"
+   "Sweden"
+   "Switzerland"
+   "UK"
