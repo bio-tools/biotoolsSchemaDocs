@@ -4,6 +4,8 @@ What is biotoolsSchema?
 
 biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including `EDAM ontology <http://github.com/edamontology/edamontology>`_ concept IDs for specialised scientific aspects.  biotoolsSchema defines 15 controlled vocabularies for technical tool aspects.  Verbose information is referred to by URL.
 
+biotoolsSchema together with the `EDAM ontology <https://github.com/edamontology/edamontology>`_ provide the foundation for an `information standard <https://github.com/bio-tools/Tool-Information-Standard>`_ for the desription of tools.  This standard is being adopted by bio.tools and defines the attributes that must be defined within a 5-tier scale of entry completeness and quality.
+
 biotoolsSchema is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
 
 Documentation

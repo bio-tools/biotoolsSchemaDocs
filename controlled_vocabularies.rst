@@ -1,6 +1,6 @@
 Controlled vocabularies
 =======================
-biotoolsSchema defines 15 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
+biotoolsSchema defines 18 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
 
 .. csv-table::
    :header: "Vocabulary", "Description", "Link"
