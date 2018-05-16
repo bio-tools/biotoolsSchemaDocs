@@ -16,6 +16,7 @@ Contents:
 
    What is biotoolsSchema <what_is_biotoolsschema>
    biotoolsSchema elements <biotoolsschema_elements>
+   Controlled vocabularies <controlled_vocabularies>
    Information standard <information_standard>
    Contributors <contributors>
    License <license>

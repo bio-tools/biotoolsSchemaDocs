@@ -1,7 +1,7 @@
 biotoolsSchema elements
 =======================
 
-A summary of elements in biotoolsSchema is below, focussing on what is currently supported in `bio.tools <https://bio.tools>`_.  For further information, please see the `comprehensive documentation <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_ on GitHub.
+A summary of elements in biotoolsSchema is below.  For more detailed information, please see the `technical documentation <http://bio-tools.github.io/biotoolsSchema/>`_.
 
 
 Element groups
@@ -253,28 +253,4 @@ ELIXIR information
 See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__.
 
 
-Controlled vocabularies
------------------------
-biotoolsSchema defines 16 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
-
-.. csv-table::
-   :header: "Vocabulary", "Description", "Link"
-   :widths: 25, 50, 50
-
-   "tool type ", "The type of application software.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#tool-type>`__"
-   "operating system ", "The operating system supported by a downloadable software package, e.g. 'Linux'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`__"
-   "programming language ", "Name of programming language the software source code was written in, e.g. 'C'.", "`link <https://github.com/bio-tools/biotoolsSchema/>`__"
-   "license ", "Software or data usage license, e.g. 'GPL-3.0'", "`link <https://github.com/bio-tools/biotoolsSchema/>`__"
-   "relation type ", "Type of relation between this and another registered software, e.g. 'isInterfaceTo'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__"
-   "maturity ", "How mature the software product is, e.g. 'Mature'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`__"
-   "cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#cost>`__"
-   "accessibility ", "Whether the software is freely available for use, e.g. 'Open access'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__"
-   "link type", "The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`__"
-   "download type ", "Type of download that is linked to, e.g. 'Source code'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`__"
-   "documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#id71>`__"
-   "publication type ", "Type of publication, e.g. 'Review'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`__"
-   "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__"
-   "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`__"
-   "disk image format ", "Virtual machine disk image format, e.g. 'aki'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__"
-   "containers format", "Virtual machine container format, e.g. 'singularity'.", "`link <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__"
 
