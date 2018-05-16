@@ -22,7 +22,8 @@ biotoolsSchema defines 15 controlled vocabularies - as standarised enumerations 
    "entity type ", "Types of entities that may be credited, e.g. 'Person'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__"
    "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`__"
    "ID type ", "Type of tool identifier, e.g. 'rrid'.", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#other-ids>`__"
-
+   "ELIXIR Platform ", "Name of the ELIXIR Platform that is credited, e.g. 'Tools'", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__"
+   "ELIXIR Node ", "Name of the ELIXIR Node that is credited, e.g. 'Norway'", "`link <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__"
 
 
 
@@ -263,8 +264,8 @@ Entity role
    "Primary contact", "The primary point of contact for the software."
 
 
-ID types
---------
+ID type
+-------
 *Type of tool identifier, e.g. "rrid"*
 
 .. csv-table::
