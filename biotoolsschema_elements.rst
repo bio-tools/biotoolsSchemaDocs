@@ -42,7 +42,6 @@ Summary group
    :widths: 25, 50, 50, 100
       
    "name", "Canonical software name assigned by the software developer or service provider.", "xs:token (restriction)", "1 only"
-   "shortDescription", "Short and concise textual description of the software function.", "xs:token (restriction)", "0 or 1"
    "description", "Textual description of the software.", "xs:token (restriction)", "1 only"
    "homepage", "Homepage of the software, or some URL that best serves this purpose.", "URL", "1 only"
    "biotoolsId", "Unique ID (case insensitive) of the tool that is assigned upon registration of the software in bio.tools, normally identical to tool name.", "URL (restriction)", "0 or 1"
@@ -63,17 +62,6 @@ Function group
 
 Each software entity has one more functions, each corresponding to a mode of operation that the software provides.  Each function performs one or more basic operations, and has zero or more primary input and/or output data, each of a specified type and supported format(s).
 For each operation, data or format element, an `EDAM ontology <https://github.com/edamontology/edamontology>`_ concept URL and/or term are specified.  
-
-.. important::
-
-   The URL must be in the appropriate EDAM Operation | Data | Format namespace, *e.g.*
-
-   * http://edamontology.org/operation_0492
-   * http://edamontology.org/data_0863
-   * http://edamontology.org/format_1929
-
-   The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
-
 
 .. image:: images/function.png
 
@@ -98,6 +86,15 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    "comment", "Concise comment about this function, if not apparent from the software description and EDAM annotations.", "xs:token (restriction)", "0 or 1"
    "cmd", "Relevant command, command-line fragment or option for executing this function / running the tool in this mode.", "xs:token (restriction)", "0 or 1"
 
+.. important::
+
+   The URL must be in the appropriate EDAM Operation | Data | Format namespace, *e.g.*
+
+   * http://edamontology.org/operation_0492
+   * http://edamontology.org/data_0863
+   * http://edamontology.org/format_1929
+
+   The term, *e.g.* "Multiple sequence alignment" must be either the preferred label of the concept or a synonym of this term, as defined in EDAM.
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#function-group>`__.
