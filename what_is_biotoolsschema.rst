@@ -2,30 +2,32 @@ What is biotoolsSchema?
 =======================
 **biotoolsSchema** is a formalised XML schema (XSD) which defines a description model for bioinformatics software.  It can be used to describe bioinformatics tools - application software with well-defined data processing functions (inputs, outputs and operations).   This includes simple tools with one or a few closely related functions, and complex, multimodal tools with many functions, tools available available for immediate use as online services, or in a form which which you can download, install, configure and run yourself.  
 
-biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including ontology concept IDs for specialised scientific and technical aspects.  Verbose information are referred to by URL.
+biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including `EDAM ontology <http://github.com/edamontology/edamontology>`_ concept IDs for specialised scientific aspects.  biotoolsSchema defines 15 controlled vocabularies for technical tool aspects.  Verbose information is referred to by URL.
 
-It is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
+biotoolsSchema is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
 
 Documentation
 -------------
-Full documentation of biotoolsSchema is available at:
+Additional documentation for biotoolsSchema is available:
 
-- `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`_ 
+- `Technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ maintained in `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/>`_ where you'll find example data files
+- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>_`
 
-Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 is currently being rolled out in a staged manner (see `g-doc <https://docs.google.com/document/d/1tqw7FELV4F_qzrTA9KpVYoORAeFPyY1ZOjaGTPN2H1E/edit#heading=h.fffoc8urhpt8>`_).
+.. note::
+   Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 in in progress.
 
 
 Download
 --------
-Latest stable version
+**Latest stable version**
 
 - https://github.com/bio-tools/biotoolsSchema/blob/master/stable/biotools.xsd
 
-Current development version
+**Current development version**
 
 - https://github.com/bio-tools/biotoolsSchema/blob/master/biotools_dev.xsd
   
-Versioned releases
+**Versioned releases**
 
 - https://github.com/bio-tools/biotoolsSchema/tree/master/versions
 
@@ -38,7 +40,7 @@ biotoolsSchema is a mature schema having undergone a lot of community-driven rev
 * `MINOR` version for addition of functionality in a backwards-compatible manner
 * `PATCH` version for backwards-compatible bug fixes
 
-For ways to contribute, please see the `Contributors Guide <http://biotools.readthedocs.org/en/latest/contributors_guide.html>`_. 
+Please contribute via `GitHub <https://github.com/bio-tools/biotoolsSchema>`_.  See also the bio.tools `Contributors Guide <http://biotools.readthedocs.org/en/latest/contributors_guide.html>`_. 
 
 Motivation
 ----------
