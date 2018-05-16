@@ -6,7 +6,7 @@ A summary of elements in biotoolsSchema is below.  For more detailed information
 
 Element groups
 --------------
-biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 11 logical groupings (see below).
+biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 8 logical groupings (see below).
 
 
 .. image:: images/tool.png
