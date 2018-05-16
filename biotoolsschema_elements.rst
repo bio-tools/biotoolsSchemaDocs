@@ -83,7 +83,7 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    "output->format", "Allowed format(s) of the output data (EDAM Format).", "Ontology concept (restriction)", "0 or more"
    "operation | data | format | topic->url", "URL of an EDAM Operation | Data | Format concept.", "URL (restriction)",  "0 or 1"
    "operation | data | format | topic->term", "An EDAM Operation | Data | Format term (preferred label or synonym).", "xs:token", "0 or 1"
-   "comment", "Concise comment about this function, if not apparent from the software description and EDAM annotations.", "xs:token (restriction)", "0 or 1"
+   "note", "Concise comment about this function, if not apparent from the software description and EDAM annotations.", "xs:token (restriction)", "0 or 1"
    "cmd", "Relevant command, command-line fragment or option for executing this function / running the tool in this mode.", "xs:token (restriction)", "0 or 1"
 
 .. important::
@@ -114,9 +114,6 @@ Labels group
    "topic", "General scientific domain the software serves or other general category: one of EDAM Topic URL or term is specified.", "Ontology concept (restriction)", "0 or more"
    "topic->url", "URL of an EDAM Topic concept.", "URL (restriction)", "0 or 1"
    "topic->term", "An EDAM Topic term (preferred label or synonym).", "xs:token", "0 or 1"
-   "goTermID", "Gene function including molecular function, cellular component and biological process.  Miscellaneous ontology annotation. The ID of Gene Ontology (GO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
-   "soTermID", "Features which can be located on a biological sequence. The ID of Sequence Ontology (SO) concept(s) are specified.", "xs:token (restriction)", "0 or more"
-   "taxId", "NCBI taxonomy ID of taxonomic group the software (particularly database portals) caters for.", "xs:token (restriction)", "0 or more"
    "operatingSystem", "The operating system supported by a downloadable software package.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`__)", "0 or more"
    "language", "Name of programming language the software source code was written in.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/>`__)", "0 or more"
    "license", "Software or data usage license.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
@@ -127,18 +124,6 @@ Labels group
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
-
-Relation group
-^^^^^^^^^^^^^^
-*Details of a relationship this software shares with other software registered in bio.tools.*
-
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__.
-
-API spec group
-^^^^^^^^^^^^^^
-*Details of the API to a service including service endpoints.*
-
-See the `GitHub docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__.
 
 Links group
 ^^^^^^^^^^^
@@ -152,8 +137,7 @@ Links group
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
    "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`__)", "1 only"
-   "comment", "Comment about the link.", "xs:token (restriction)", "0 or more"
-   "isAvailable", "Used (with value of 'Not available') when a link of a certain type is known not to be available.", "enum ('Not available')", "0 or 1"
+   "note", "Comment about the link.", "xs:token (restriction)", "0 or more"
 
    
 .. note::
