@@ -2,5 +2,4 @@ Tool information standard
 =========================
 
 **MOVED TO:**"
-https://github.com/bio-tools/Tool-Information-Standard
-
+https://github.com/bio-tools/Tool-Information-Standard/tree/master/docs
