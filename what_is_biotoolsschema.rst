@@ -2,7 +2,7 @@ What is biotoolsSchema?
 =======================
 **biotoolsSchema** is a formalised XML schema (XSD) which defines a description model for bioinformatics software.  It can be used to describe bioinformatics tools - application software with well-defined data processing functions (inputs, outputs and operations).   This includes simple tools with one or a few closely related functions, and complex, multimodal tools with many functions, tools available available for immediate use as online services, or in a form which which you can download, install, configure and run yourself.  
 
-biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including `EDAM ontology <http://github.com/edamontology/edamontology>`_ concept IDs for specialised scientific aspects.  biotoolsSchema defines 15 controlled vocabularies for technical tool aspects.  Verbose information is referred to by URL.
+biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including `EDAM ontology <http://github.com/edamontology/edamontology>`_ concept IDs for specialised scientific aspects.  biotoolsSchema defines 18 controlled vocabularies for technical tool aspects.  Verbose information is referred to by URL.
 
 biotoolsSchema together with the `EDAM ontology <https://github.com/edamontology/edamontology>`_ provide the foundation for an `information standard <https://github.com/bio-tools/Tool-Information-Standard>`_ for the desription of tools.  This standard is being adopted by bio.tools and defines the attributes that must be defined within a 5-tier scale of entry completeness and quality.
 
@@ -13,7 +13,7 @@ Documentation
 These docs describe the latest stable version (currently 3.0.0) and are maintined in `GitHub <https://github.com/bio-tools/biotoolsschemadocs/>`_.  Additional documentation is available:
 
 - `Technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ maintained in `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/>`_ where you'll find example data files
-- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>`_.
+- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>`_
 
 .. note::
    Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 in in progress.

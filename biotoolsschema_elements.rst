@@ -25,12 +25,8 @@ biotoolsSchema includes scientific, technical and administrative software attrib
    "Credits", "credit", "Individuals or organisations that should be credited, or may be contacted about the software."
 
 
-Elements
---------
-  
-
 Summary group
-^^^^^^^^^^^^^
+-------------
 *Basic information about the software.*
 
 .. image:: images/summary.png
@@ -49,7 +45,7 @@ Summary group
    "version", "Version information (typically a version number) of the software applicable to this bio.tools entry.", "xs:token (restriction)", "0 or more"
    "otherID", "A unique identifier of the software, typically assigned by an ID-assignment authority other than bio.tools.", "(see below)", "0 or more"
    "otherID->value", "Value of tool identifier.", "xs:token (restriction)", "1 only"
-   "otherID->type", "Type of tool identifier.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
+   "otherID->type", "Type of tool identifier.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#id-type>`__)", "0 or 1"
    "otherID->version", "Version information (typically a version number) of the software applicable to this identifier.", "xs:token (restriction)", "0 or 1"
 
 .. note::
@@ -57,7 +53,7 @@ Summary group
 
 	    
 Function group
-^^^^^^^^^^^^^^
+--------------
 *Details of a function (i.e. mode of operation) the software provides, expressed in terms from the EDAM ontology.*
 
 Each software entity has one more functions, each corresponding to a mode of operation that the software provides.  Each function performs one or more basic operations, and has zero or more primary input and/or output data, each of a specified type and supported format(s).
@@ -101,7 +97,7 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
       
    
 Labels group
-^^^^^^^^^^^^
+------------
 *Miscellaneous scientific, technical and administrative details of the software, expressed in terms from controlled vocabularies.*
 
 .. image:: images/labels.png
@@ -115,18 +111,18 @@ Labels group
    "topic->url", "URL of an EDAM Topic concept.", "URL (restriction)", "0 or 1"
    "topic->term", "An EDAM Topic term (preferred label or synonym).", "xs:token", "0 or 1"
    "operatingSystem", "The operating system supported by a downloadable software package.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#operating-system>`__)", "0 or more"
-   "language", "Name of programming language the software source code was written in.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/>`__)", "0 or more"
-   "license", "Software or data usage license.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
+   "language", "Name of programming language the software source code was written in.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#programming-language/>`__)", "0 or more"
+   "license", "Software or data usage license.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#license>`__)", "0 or 1"
    "collectionID", "Tag for a collection that the software has been assigned to within bio.tools.", "xs:token (restriction)", "0 or more"
-   "maturity", "How mature the software product is.", "enum (see `link <http://biotools.readthedocs.io/en/latest/curators_guide.html#maturity>`__)", "0 or 1"
-   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
+   "maturity", "How mature the software product is.", "enum (see `link <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
+   "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
 
 Links group
-^^^^^^^^^^^
+-----------
 *Miscellaneous links for the software e.g. repository, issue tracker or mailing list.*
 
 .. image:: images/link.png
@@ -136,7 +132,7 @@ Links group
    :widths: 25, 50, 50, 100
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
-   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`__)", "1 only"
+   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#link-type>`__)", "1 only"
    "note", "Comment about the link.", "xs:token (restriction)", "0 or more"
 
    
@@ -145,7 +141,7 @@ Links group
    
 
 Download group
-^^^^^^^^^^^^^^
+--------------
 *Links to downloads for the software, e.g. source code, virtual machine image or container.*
 
 .. image:: images/download.png
@@ -157,8 +153,8 @@ Download group
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
    "type", "Type of download that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`__)", "1 only"
    "note", "Comment about the download.", "xs:token (restriction)", "0 or 1"
-   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
-   "containerFormat", "Virtual machine container format.", "enum (see `docs <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/docs>`__)", "0 or 1"
+   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#disk-image-format>`__)", "0 or 1"
+   "containerFormat", "Virtual machine container format.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#container-format>`__)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
 
 
@@ -166,7 +162,7 @@ Download group
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-group>`__.
 
 Documentation group
-^^^^^^^^^^^^^^^^^^^
+-------------------
 *Links to documentation about the software e.g. manual, API specification or training material.*
 
 .. image:: images/documentation.png
@@ -176,14 +172,14 @@ Documentation group
    :widths: 25, 50, 50, 100
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
-   "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#id60>`__)", "1 only"
+   "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-type>`__)", "1 only"
    "note", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`__.
    
 Publications group
-^^^^^^^^^^^^^^^^^^
+------------------
 *Publications about the software*
 
 .. image:: images/publication.png
@@ -202,7 +198,7 @@ Publications group
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`__.
    
 Credits group
-^^^^^^^^^^^^^
+-------------
 *Individuals or organisations that should be credited, or may be contacted about the software.*
 
 .. image:: images/credit.png
@@ -219,7 +215,7 @@ Credits group
    "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "tel", "Telephone number.", "xs:token (restriction)", "0 or 1"
    "typeEntity", "Type of entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__)", "0 or 1"
-   "typeRole", "Role performed by entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#role>`__)", "0 or more"
+   "typeRole", "Role performed by entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-role>`__)", "0 or more"
    "note", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
 .. note::
