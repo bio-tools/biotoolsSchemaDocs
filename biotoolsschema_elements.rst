@@ -207,12 +207,12 @@ Credits group
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
+   "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
    "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or 1"
    "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or 1"
-   "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
+   "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
-   "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "tel", "Telephone number.", "xs:token (restriction)", "0 or 1"
    "typeEntity", "Type of entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-type>`__)", "0 or 1"
    "typeRole", "Role performed by entity that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#entity-role>`__)", "0 or more"
