@@ -40,7 +40,7 @@ Summary group
    "name", "Canonical software name assigned by the software developer or service provider.", "xs:token (restriction)", "1 only"
    "description", "Textual description of the software.", "xs:token (restriction)", "1 only"
    "homepage", "Homepage of the software, or some URL that best serves this purpose.", "URL", "1 only"
-   "biotoolsId", "Unique ID (case insensitive) of the tool that is assigned upon registration of the software in bio.tools, normally identical to tool name.", "URL (restriction)", "0 or 1"
+   "biotoolsID", "Unique ID (case insensitive) of the tool that is assigned upon registration of the software in bio.tools, normally identical to tool name.", "URL (restriction)", "0 or 1"
    "biotoolsCURIE ", "bio.tools CURIE (compact URI) based on the bio.tools tool ID.", "xs:token (restriction)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this bio.tools entry.", "xs:token (restriction)", "0 or more"
    "otherID", "A unique identifier of the software, typically assigned by an ID-assignment authority other than bio.tools.", "(see below)", "0 or more"
