@@ -117,6 +117,8 @@ Labels group
    "maturity", "How mature the software product is.", "enum (see `link <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
    "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
+   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or 1"
+   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
@@ -153,8 +155,6 @@ Download group
    "url", "Link to download (or repo providing a download) for the software.", "URL", "1 only"
    "type", "Type of download that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#download-type>`__)", "1 only"
    "note", "Comment about the download.", "xs:token (restriction)", "0 or 1"
-   "diskFormat", "Virtual machine image disk format.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#disk-image-format>`__)", "0 or 1"
-   "containerFormat", "Virtual machine container format.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#container-format>`__)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this download.", "xs:token (restriction)", "0 or 1"
 
 
@@ -208,8 +208,6 @@ Credits group
    :widths: 25, 50, 50, 100
 
    "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
-   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or 1"
-   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or 1"
    "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
