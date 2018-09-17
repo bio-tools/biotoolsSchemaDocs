@@ -13,7 +13,7 @@ Documentation
 These docs describe the latest stable version (currently 3.0.0) and are maintined in `GitHub <https://github.com/bio-tools/biotoolsschemadocs/>`_.  Additional documentation is available:
 
 - `Technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ maintained in `GitHub <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/>`_ where you'll find example data files
-- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API attribute model <http://biotools.readthedocs.io/en/latest/api_attribute_model_dev.html>`_
+- Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API Usage Guide <http://biotools.readthedocs.io/en/latest/api_usage_guide_dev.html>`_
 
 .. note::
    Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 in in progress.
