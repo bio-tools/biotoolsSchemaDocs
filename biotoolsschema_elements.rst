@@ -4,6 +4,9 @@ biotoolsSchema elements
 A summary of elements in biotoolsSchema is below.  For more detailed information, please see the `technical documentation <http://bio-tools.github.io/biotoolsSchema/>`_.
 
 
+.. important::
+   When producing XML files compliant to the schema, it is essential to stick to the element order (as described below).  See the sample `XML files <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/example_files>`_. 
+
 Element groups
 --------------
 biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 8 logical groupings (see below).
