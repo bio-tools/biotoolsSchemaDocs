@@ -5,7 +5,7 @@ A summary of elements in biotoolsSchema is below.  For more detailed information
 
 
 .. important::
-   When producing XML files compliant to the schema, it is essential to stick to the element order (as described below).  See the sample `XML files <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/example_files>`_. 
+   When producing XML files compliant to the schema, it is essential to stick to the element order (including nested elements) as described below.  See the sample `XML files <https://github.com/bio-tools/biotoolsSchema/tree/master/stable/example_files>`_. 
 
 Element groups
 --------------
