@@ -120,8 +120,8 @@ Labels group
    "maturity", "How mature the software product is.", "enum (see `link <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
    "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
-   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or 1"
-   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or 1"
+   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or more"
+   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
@@ -138,7 +138,7 @@ Links group
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
    "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#link-type>`__)", "1 only"
-   "note", "Comment about the link.", "xs:token (restriction)", "0 or more"
+   "note", "Comment about the link.", "xs:token (restriction)", "0 or 1"
 
    
 .. note::
@@ -176,7 +176,7 @@ Documentation group
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
    "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-type>`__)", "1 only"
-   "note", "Comment about the documentation.", "xs:token (restriction)", "0 or more"
+   "note", "Comment about the documentation.", "xs:token (restriction)", "0 or 1"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`__.
@@ -191,9 +191,9 @@ Publications group
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "pmcid", "PubMed Central Identifier of a publication about the software.", "xs:token (restriction)", "1 only"
-   "pmid", "PubMed Identifier.", "xs:token (restriction)", "1 only"
-   "doi", "Digital Object Identifier.", "xs:token (restriction)", "1 only"
+   "pmcid", "PubMed Central Identifier of a publication about the software.", "xs:token (restriction)", "0 or 1"
+   "pmid", "PubMed Identifier.", "xs:token (restriction)", "0 or 1"
+   "doi", "Digital Object Identifier.", "xs:token (restriction)", "0 or 1"
    "type", "Type of publication.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`__)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
 
