@@ -210,7 +210,7 @@ Credits group
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 
-   "name", "Name of the entity that is credited.", "xs:token (restriction)", "1 only"
+   "name", "Name of the entity that is credited.", "xs:token (restriction)", "0 or 1"
    "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
