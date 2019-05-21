@@ -21,7 +21,7 @@ biotoolsSchema includes scientific, technical and administrative software attrib
    "Summary", "summary", "Basic information about the software."
    "Function", "function", "Details of the function(s) (i.e. modes of operation) the software provides, expressed in terms from the EDAM ontology."
    "Labels", "label", "Miscellaneous scientific, technical and administrative details of the software, expressed in terms from controlled vocabularies."
-   "Links", "lnk", "Miscellaneous links for the software e.g. repository, issue tracker or mailing list."
+   "Links", "link", "Miscellaneous links for the software e.g. repository, issue tracker or mailing list."
    "Downloads", "download", "Links to downloads for the software, e.g. source code, virtual machine image or container."
    "Documentation", "documentation", "Links to documentation about the software e.g. manual, API specification or training material."
    "Publications", "publication", "Publications about the software."
