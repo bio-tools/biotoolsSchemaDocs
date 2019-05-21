@@ -8,6 +8,14 @@ biotoolsSchema together with the `EDAM ontology <https://github.com/edamontology
 
 biotoolsSchema is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
 
+
+Repo
+----
+Track developments and contribute at GitHub
+
+- https://github.com/bio-tools/biotoolsSchema
+
+
 Documentation
 -------------
 These docs describe the latest stable version (currently 3.0.0) and are maintined in `GitHub <https://github.com/bio-tools/biotoolsschemadocs/>`_.  Additional documentation is available:
@@ -16,7 +24,7 @@ These docs describe the latest stable version (currently 3.0.0) and are maintine
 - Usage guidelines including the bio.tools `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#>`_ and `API Usage Guide <http://biotools.readthedocs.io/en/latest/api_usage_guide_dev.html>`_
 
 .. note::
-   Version 2.0.0 is currently supported in `bio.tools <https://bio.tools>`_.  Support for version 3.0.0 in in progress.
+   Version 3.0.0 is currently supported in `bio.tools <https://bio.tools>`_.
 
 
 Download
