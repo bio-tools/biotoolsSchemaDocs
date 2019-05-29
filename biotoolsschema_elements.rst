@@ -126,8 +126,8 @@ Labels group
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
 
-Links group
------------
+Link group
+----------
 *Miscellaneous links for the software e.g. repository, issue tracker or mailing list.*
 
 .. image:: images/link.png
@@ -142,7 +142,7 @@ Links group
 
    
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#links-group>`__.
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#link-group>`__.
    
 
 Download group
@@ -181,8 +181,8 @@ Documentation group
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-group>`__.
    
-Publications group
-------------------
+Publication group
+-----------------
 *Publications about the software*
 
 .. image:: images/publication.png
@@ -198,10 +198,29 @@ Publications group
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publications-group>`__.
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-group>`__.
+
+
+Relation group
+--------------
+*Details of a relationship this software shares with other software registered in bio.tools.*
+
+.. image:: images/relation.png
+	   
+.. csv-table::
+   :header: "Element", "Description", "Type", "Cardinality"
+   :widths: 25, 50, 50, 100
+	    
+   "biotoolsID", "bio.tools ID of an existing bio.tools entry which this software is related to.", "xs:token (restriction)", "1 only"
+   "type", "Type of relation between this and another registered software.", "xs:token (restriction)", "1 only"
+
+.. note::
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#relation-group>`__.
    
-Credits group
--------------
+
+   
+Credit group
+------------
 *Individuals or organisations that should be credited, or may be contacted about the software.*
 
 .. image:: images/credit.png
@@ -220,7 +239,7 @@ Credits group
    "note", "A comment about the credit.", "xs:token (restriction)", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credits-group>`__.
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#credit-group>`__.
    
 
 

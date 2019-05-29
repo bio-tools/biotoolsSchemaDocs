@@ -1,6 +1,6 @@
 Controlled vocabularies
 =======================
-biotoolsSchema defines 18 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
+biotoolsSchema defines 17 controlled vocabularies - as standarised enumerations of terms - for description of technical software aspects (see below).
 
 .. csv-table::
    :header: "Vocabulary", "Description"
@@ -17,6 +17,7 @@ biotoolsSchema defines 18 controlled vocabularies - as standarised enumerations 
    "download type ", "Type of download that is linked to, e.g. 'Source code'."
    "documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'."
    "publication type ", "Type of publication, e.g. 'Review'."
+   "relation type ", "Type of relation between this and another registered software, e.g. 'isNewVersionOf'."
    "entity type ", "Types of entities that may be credited, e.g. 'Person'."
    "entity role ", "Roles that may be assigned to creditable entities, e.g. 'Developer'."
    "ID type ", "Type of tool identifier, e.g. 'rrid'."
@@ -195,6 +196,22 @@ Publication type
    "Review", "A publication where the tool was reviewed."
    "Other", "A publication of relevance to the tool but not fitting the other categories."
 
+Relation type
+-------------
+*Type of relation between this and another registered software, e.g. "isNewVersionOf"*
+
+.. csv-table::
+   :header: "Relation type", "Description"
+   :widths: 25, 100
+
+"isNewVersionOf", "The software is a new version of an existing software, typically providing new or improved functionality."
+"hasNewVersion", "(inverse of above)"
+"uses", "The software provides an interface to or in some other way uses the functions of other software under the hood,e.g. invoking a command-line tool or calling a Web API, Web service or SPARQL endpoint to perform its function."
+"usedBy", "(inverse of above)"
+"includes", "A workbench, toolkit or workflow includes some other, independently available, software."
+"includedIn", "(inverse of above)"
+
+   
 Entity type
 -----------
 *Type of entity that is credited, e.g. "Person"*
