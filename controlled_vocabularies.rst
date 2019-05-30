@@ -127,13 +127,13 @@ Link type
    "Issue tracker", "Tracker for software issues, bug reports, feature requests etc."
    "Mailing list", "Mailing list for the software announcements, discussions, support etc."
    "Mirror", "Mirror of an (identical) online service."
-   "Other", "Other type of link for software - the default if a more specific type is not available."
    "Registry", "Some registry, catalogue etc. other than bio.tools."
    "Repository", "Repository where source code, data and other files may be downloaded."
    "Social media", "A website used by the software community including social networking sites, discussion and support fora, WIKIs etc."
    "Scientific benchmark", "Information about the scientific performance of a tool."
    "Service", "An online service that provides access (an interface) to the software."
    "Technical monitoring", "Information about the technical status of a tool."
+   "Other", "Other type of link for software - the default if a more specific type is not available."
 
 
 
@@ -156,7 +156,6 @@ Download type
    "Downloads page", "Web page summarising general downloads available for the software."
    "Icon", "Icon of the software."
    "Ontology", "A file containing an ontology, controlled vocabulary, terminology etc."
-   "Other", "Other type of download for software - the default if a more specific type is not available."
    "Screenshot", "Screenshot of the software."
    "Source code", "Software source code."
    "Source package", "Source package (of various types) for the software."
@@ -166,6 +165,7 @@ Download type
    "Tool wrapper (taverna)", "Taverna configuration file for the software."
    "Tool wrapper (other)", "Workbench configuration file (other than taverna, galaxy or CWL wrapper) for the software."
    "VM image", "Virtual machine (VM) image for the software."   
+   "Other", "Other type of download for software - the default if a more specific type is not available."
 
 
      
