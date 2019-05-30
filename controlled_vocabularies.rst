@@ -122,15 +122,20 @@ Link type
    :widths: 25, 100
 
    "Browser", "A website for browsing data."
+   "Discussion forum", "Online forum for user discussions about the software."
    "Helpdesk", "Helpdesk providing support in using the software."
    "Issue tracker", "Tracker for software issues, bug reports, feature requests etc."
    "Mailing list", "Mailing list for the software announcements, discussions, support etc."
    "Mirror", "Mirror of an (identical) online service."
+   "Other", "Other type of link for software - the default if a more specific type is not available."
    "Registry", "Some registry, catalogue etc. other than bio.tools."
    "Repository", "Repository where source code, data and other files may be downloaded."
    "Social media", "A website used by the software community including social networking sites, discussion and support fora, WIKIs etc."
    "Scientific benchmark", "Information about the scientific performance of a tool."
+   "Service", "An online service that provides access (an interface) to the software."
    "Technical monitoring", "Information about the technical status of a tool."
+
+
 
 
 Download type
@@ -148,8 +153,10 @@ Download type
    "Command-line specification", "File providing a command line specification for the software."
    "Container file", "Container file including the software."
    "CWL file", "Common Workflow Language (CWL) file for the software."
+   "Downloads page", "Web page summarising general downloads available for the software."
    "Icon", "Icon of the software."
    "Ontology", "A file containing an ontology, controlled vocabulary, terminology etc."
+   "Other", "Other type of download for software - the default if a more specific type is not available."
    "Screenshot", "Screenshot of the software."
    "Source code", "Software source code."
    "Source package", "Source package (of various types) for the software."
@@ -161,6 +168,7 @@ Download type
    "VM image", "Virtual machine (VM) image for the software."   
 
 
+     
 Documentation type
 ------------------
 *Type of documentation that is linked to, e.g. "Citation instructions"*
@@ -171,16 +179,22 @@ Documentation type
 		
    "API documentation", "Human-readable API documentation."
    "Citation instructions", "Information on how to correctly cite use of the software."
+   "Command-line options", "Information about the command-line interface to a tool."
    "Contributions policy", "Information about policy for making contributions to the software project."
+   "FAQ", "Frequently Asked Questions (and answers) about the software."
    "General", "General documentation."
    "Governance", "Information about the software governance model."
    "Installation instructions", "Instructions how to install the software."
    "Manual ", "Information on how to use the software."
+   "Release notes", "Notes about a software release or changes to the software; a change log."
    "Terms of use", "Rules that one must agree to abide by in order to use a service."
    "Training material", "Online training material such as text on a Web page, a presentation, video, tutorial etc."
    "Tutorial", "A tutorial about using the software."
    "Other", "Some other type of documentation not listed in biotoolsSchema."
 
+
+
+   
 Publication type
 ----------------
 *Type of publication, e.g. "Primary"*
