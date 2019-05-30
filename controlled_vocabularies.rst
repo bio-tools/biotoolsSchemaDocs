@@ -121,7 +121,6 @@ Link type
    :header: "Link type", "Description"
    :widths: 25, 100
 
-   "Browser", "A website for browsing data."
    "Discussion forum", "Online forum for user discussions about the software."
    "Helpdesk", "Helpdesk providing support in using the software."
    "Issue tracker", "Tracker for software issues, bug reports, feature requests etc."
@@ -153,7 +152,6 @@ Download type
    "Command-line specification", "File providing a command line specification for the software."
    "Container file", "Container file including the software."
    "CWL file", "Common Workflow Language (CWL) file for the software."
-   "Downloads page", "Web page summarising general downloads available for the software."
    "Icon", "Icon of the software."
    "Ontology", "A file containing an ontology, controlled vocabulary, terminology etc."
    "Screenshot", "Screenshot of the software."
@@ -165,6 +163,7 @@ Download type
    "Tool wrapper (taverna)", "Taverna configuration file for the software."
    "Tool wrapper (other)", "Workbench configuration file (other than taverna, galaxy or CWL wrapper) for the software."
    "VM image", "Virtual machine (VM) image for the software."   
+   "Downloads page", "Web page summarising general downloads available for the software."
    "Other", "Other type of download for software - the default if a more specific type is not available."
 
 
