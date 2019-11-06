@@ -81,8 +81,8 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
    "output", "*Details of primary output data.*", "", ""
    "output->data", "Type of primary output data, if any (EDAM Data).", "Ontology concept (restriction)", "1 only"
    "output->format", "Allowed format(s) of the output data (EDAM Format).", "Ontology concept (restriction)", "0 or more"
-   "operation | data | format | topic->url", "URL of an EDAM Operation | Data | Format concept.", "URL (restriction)",  "0 or 1"
-   "operation | data | format | topic->term", "An EDAM Operation | Data | Format term (preferred label or synonym).", "xs:token", "0 or 1"
+   "operation | data | format->url", "URL of an EDAM Operation | Data | Format concept.", "URL (restriction)",  "0 or 1"
+   "operation | data | format->term", "An EDAM Operation | Data | Format term (preferred label or synonym).", "xs:token", "0 or 1"
    "note", "Concise comment about this function, if not apparent from the software description and EDAM annotations.", "xs:token (restriction)", "0 or 1"
    "cmd", "Relevant command, command-line fragment or option for executing this function / running the tool in this mode.", "xs:token (restriction)", "0 or 1"
 
