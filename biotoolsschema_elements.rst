@@ -25,6 +25,7 @@ biotoolsSchema includes scientific, technical and administrative software attrib
    "Downloads", "download", "Links to downloads for the software, e.g. source code, virtual machine image or container."
    "Documentation", "documentation", "Links to documentation about the software e.g. manual, API specification or training material."
    "Publications", "publication", "Publications about the software."
+   "Relations", "relation", "Details of a relationship this software shares with other software registered in bio.tools."
    "Credits", "credit", "Individuals or organisations that should be credited, or may be contacted about the software."
 
 
