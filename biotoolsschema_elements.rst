@@ -213,7 +213,7 @@ Relation group
    :widths: 25, 50, 50, 100
 	    
    "biotoolsID", "bio.tools ID of an existing bio.tools entry which this software is related to.", "xs:token (restriction)", "1 only"
-   "type", "Type of relation between this and another registered software.", "xs:token (restriction)", "1 only"
+   "type", "Type of relation between this and another registered software.", "enum (see `docs <https://biotools.readthedocs.io/en/latest/curators_guide.html#type-relation>`__)", "1 only"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#relation-group>`__.
