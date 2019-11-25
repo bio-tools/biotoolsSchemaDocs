@@ -5,18 +5,18 @@ Main authors & contributors
 ---------------------------
 * Jon Ison (CBS-DTU, DK) *- lead developer*
 * Matúš Kalaš (UiB, NO)
-* Kristoffer Rapacki (CBS-DTU, DK)
 * Hervé Ménager (IP, FR)
-* Piotr Chmura (KU, DK)
 * Hans-Ioan Lenasescu (KU, DK)
-* Veit Schwämmle (SDU-BMB, DK)
-* Emil Rydza (formerly KU, DK)
 
 
 Contributors
 ------------
 Thanks to the many people who have contributed - if you're not listed below, please let us know!
 
+* Veit Schwämmle (SDU-BMB, DK)
+* Kristoffer Rapacki (CBS-DTU, DK)
+* Piotr Chmura (KU, DK)
+* Emil Rydza (formerly KU, DK)
 * Dmitry Repchevski (BCS, ES)
 * Piotr Wojciech Dabrowski (RKI, DE)
 * Bjoern Gruening (University of Freiburg, DE)
