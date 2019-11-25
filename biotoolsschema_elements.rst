@@ -196,6 +196,7 @@ Publication group
    "pmid", "PubMed Identifier.", "xs:token (restriction)", "0 or 1"
    "doi", "Digital Object Identifier.", "xs:token (restriction)", "0 or 1"
    "type", "Type of publication.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#publication-type>`__)", "0 or 1"
+   "note", "Comment about the publication.", "xs:token (restriction)", "0 or 1"
    "version", "Version information (typically a version number) of the software applicable to this publication.", "xs:token (restriction)", "0 or 1"
 
 .. note::
