@@ -34,6 +34,7 @@ Tool type
    :header: "Type", "Description"
    :widths: 25, 100
       
+   "Bioinformatics portal", " web site providing a platform/portal to multiple resources used for research in a focused area, including biological databases, web applications, training resources and so on."
    "Command-line tool", "A tool with a text-based (command-line) interface."
    "Database portal", "A Web application, suite or workbench providing a portal to a biological database."
    "Desktop application", "A tool with a graphical user interface that runs on your desktop environment, *e.g.* on a PC or mobile device."
