@@ -122,8 +122,7 @@ Accessibility
 
    "Open access", "An online service which is available for use to all, but possibly requiring user accounts / authentication."
    "Restricted access", "An online service which is available for use to a restricted audience, e.g. members of a specific institute."
-   "Proprietary", "Software for which the software's publisher or another person retains intellectual property rights; usually copyright of the source code, but sometimes patent rights."
-   "Freeware", "Proprietary software that is available for use at no monetary cost. In other words, freeware may be used without payment but may usually not be modified, re-distributed or reverse-engineered without the author's permission."
+
 
 Link type
 ---------
