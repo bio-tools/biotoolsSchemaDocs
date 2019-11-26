@@ -36,7 +36,7 @@ Tool type
       
    "Bioinformatics portal", " web site providing a platform/portal to multiple resources used for research in a focused area, including biological databases, web applications, training resources and so on."
    "Command-line tool", "A tool with a text-based (command-line) interface."
-   "Database portal", "A Web application, suite or workbench providing a portal to a biological database."
+   "Database portal", "A Web site providing a portal to a biological database, typically allowing a user to browse, deposit, search, visualise, analyse or download data."
    "Desktop application", "A tool with a graphical user interface that runs on your desktop environment, *e.g.* on a PC or mobile device."
    "Library", "A collection of components that are used to construct other tools.  bio.tools scope includes component libraries performing high-level bioinformatics functions but excludes lower-level programming libraries."
    "Ontology", "A collection of information about concepts, including terms, synonyms, descriptions etc."
@@ -134,14 +134,14 @@ Link type
 
    "Discussion forum", "Online forum for user discussions about the software."
    "Galaxy service", "An online service providing the tool through the Galaxy platform."
-   "Helpdesk", "Helpdesk providing support in using the software."
+   "Helpdesk", "A phone line, web site or email-based system providing help to the end-user of the software."
    "Issue tracker", "Tracker for software issues, bug reports, feature requests etc."
    "Mailing list", "Mailing list for the software announcements, discussions, support etc."
    "Mirror", "Mirror of an (identical) online service."
    "Software catalogue", "Some registry, catalogue etc. other than bio.tools where the tool is also described."
-   "Repository", "Repository where source code, data and other files may be downloaded."
+   "Repository", "A place where source code, data and other files can be retrieved from, typically via platforms like GitHub which provide version control and other features, or something simpler, e.g. an FTP site."
    "Social media", "A website used by the software community including social networking sites, discussion and support fora, WIKIs etc."
-   "Service", "An online service that provides access (an interface) to the software."
+   "Service", "An online service (other than Galaxy) that provides access (an interface) to the software."
    "Technical monitoring", "Information about the technical status of a tool."
    "Other", "Other type of link for software - the default if a more specific type is not available."
 
@@ -158,12 +158,12 @@ Download type
 
    "API specification", "File providing an API specification for the software, e.g. Swagger/OpenAPI, WSDL or RAML file."
    "Biological data", "Biological data, or a web page on a database portal where such data may be downloaded. "
-   "Binaries", "Binaries for the software."
+   "Binaries", "Binaries for the software; compiled code that allow a program to be installed without having to compile the source code."
    "Command-line specification", "File providing a command line specification for the software."
    "Container file", "Container file including the software."
    "Icon", "Icon of the software."
    "Screenshot", "Screenshot of the software."
-   "Source code", "Software source code."
+   "Source code", "The source code for the software, that can be compiled or assembled into an executable computer program."
    "Software package", "A software package; a bundle of files and information about those files, typically including source code and / or binaries."
    "Test data", "Data for testing the software is working correctly."
    "Test script", "Script used for testing testing whether the software is working correctly."
@@ -186,7 +186,7 @@ Documentation type
    :widths: 25, 100
 		
    "API documentation", "Human-readable API documentation."
-   "Citation instructions", "Information on how to correctly cite use of the software."
+   "Citation instructions", "Information on how to correctly cite use of the software; typically which publication(s) to cite, or something more general, e.g. a form of words to use."
    "Code of conduct", "A set of guidelines or rules outlining the norms, expectations, responsibilities and proper practice for individuals working within the software project."
    "Command-line options", "Information about the command-line interface to a tool."
    "Contributions policy", "Information about policy for making contributions to the software project."
