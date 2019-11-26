@@ -138,7 +138,7 @@ Link group
    :widths: 25, 50, 50, 100
 	    
    "url", "A link of some relevance to the software (URL).", "URL", "1 only"
-   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#link-type>`__)", "1 only"
+   "type", "The type of data, information or system that is obtained when the link is resolved.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#link-type>`__)", "1 or more"
    "note", "Comment about the link.", "xs:token (restriction)", "0 or 1"
 
    
@@ -176,7 +176,7 @@ Documentation group
    :widths: 25, 50, 50, 100
 	    
    "url", "Link to documentation on the web for the tool.", "URL", "1 only"
-   "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-type>`__)", "1 only"
+   "type", "Type of documentation that is linked to.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#documentation-type>`__)", "1 or more"
    "note", "Comment about the documentation.", "xs:token (restriction)", "0 or 1"
 
 .. note::
