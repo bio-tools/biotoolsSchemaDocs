@@ -75,7 +75,18 @@ License
 -------
 *Software or data usage license, e.g. "GPL-3.0"*
 
-See the `technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ for a list of valid terms.
+See the `technical docs <http://bio-tools.github.io/biotoolsSchema/>`_ for a complete list of valid terms.  Noteworthy terms are below:
+
+
+.. csv-table::
+   :header: "License", "Description"
+   :widths: 25, 100
+
+   "Proprietary", "Software for which the software's publisher or another person retains intellectual property rights - usually copyright of the source code, but sometimes patent rights."
+   "Freeware", "Proprietary software that is available for use at no monetary cost. In other words, freeware may be used without payment but may usually not be modified, re-distributed or reverse-engineered without the author's permission."
+   "Not licensed", "Software which is not licensed and is not proprietary."
+    "Other", "Software under license not currently supported by biotoolsSchema."
+	    
 
 Maturity
 --------
