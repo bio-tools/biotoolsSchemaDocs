@@ -238,6 +238,8 @@ Credit group
    "name", "Name of the entity that is credited.", "xs:token (restriction)", "0 or 1"
    "orcidid", "Unique identifier (ORCID iD) of a person that is credited.", "xs:token (restriction)", "0 or 1"
    "gridid", "Unique identifier (GRID ID) of an organisation that is credited.", "xs:token (restriction)", "0 or 1"
+   "rorid", "Unique identifier (ROR ID) of an organisation that is credited.", "xs:token (restriction)", "0 or 1"
+   "fundrefid", "Unique identifier (FundRef ID or Funder ID) of a funding organisation that is credited.", "xs:token (restriction)", "0 or 1"	    
    "email", "Email address.", "email address", "0 or 1"
    "url", "URL, e.g. homepage of an institute.", "URL", "0 or 1"
    "tel", "Telephone number.", "xs:token (restriction)", "0 or 1"
