@@ -327,7 +327,7 @@ ELIXIR Node
 
 
 ELIXIR Community
-................
+----------------
 *Name of relevant ELIXIR (or other) community, e.g. "Galaxy"*
 
 .. csv-table::
