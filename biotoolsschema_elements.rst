@@ -11,6 +11,9 @@ Element groups
 --------------
 biotoolsSchema includes scientific, technical and administrative software attributes, organised for convenience into 8 logical groupings (see below).
 
+.. note::
+   As of biotoolsSchema 3.3.0, all of the element groups *other than* "Summary" and "Labels" are reflected as elements/objects in biotoolsSchema/biotoolsSchemaJ.
+
 
 .. image:: images/tool.png
 
@@ -53,7 +56,7 @@ Summary group
    "otherID->version", "Version information (typically a version number) of the software applicable to this identifier.", "xs:token (restriction)", "0 or 1"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>`__.
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#summary-group>`__.  As of biotoolsSchema 3.0.0, the Summary group does not have a corresponding element/object in biotoolsSchema/biotoolsSchemaJ (the schema was flattened).
 
 	    
 Function group
@@ -123,9 +126,10 @@ Labels group
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
    "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or more"
    "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or more"
+   "ELIXIRCommunity", "Name of relevant ELIXIR (or other) community.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-community>`__)", "0 or more"
 
 .. note::
-   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__.
+   See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__. As of biotoolsSchema 3.0.0, the Labels group does not have a corresponding element/object in biotoolsSchema/biotoolsSchemaJ (the schema was flattened).
 
 Link group
 ----------

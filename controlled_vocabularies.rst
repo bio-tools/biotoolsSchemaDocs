@@ -23,7 +23,7 @@ biotoolsSchema defines 17 controlled vocabularies - as standarised enumerations 
    "ID type ", "Type of tool identifier, e.g. 'rrid'."
    "ELIXIR Platform ", "Name of the ELIXIR Platform that is credited, e.g. 'Tools'"
    "ELIXIR Node ", "Name of the ELIXIR Node that is credited, e.g. 'Norway'"
-
+   "ELIXIR Community ", "Name of relevant ELIXIR (or other) community, e.g. 'Galaxy'"
 
 
 Tool type
@@ -324,3 +324,25 @@ ELIXIR Node
    "Sweden"
    "Switzerland"
    "UK"
+
+
+ELIXIR Community
+................
+*Name of relevant ELIXIR (or other) community, e.g. "Galaxy"*
+
+.. csv-table::
+   :header: "ELIXIR Node"
+   :widths: 25
+
+   "3D-BioInfo"
+   "Federated Human Data"
+   "Galaxy"
+   "Human Copy Number Variation"
+   "Intrinsically Disordered Proteins"
+   "Marine Metagenomics"
+   "Metabolomics"
+   "Microbial Biotechnology"
+   "Plant Sciences"
+   "Proteomics"
+   "Rare Diseases"
+   
