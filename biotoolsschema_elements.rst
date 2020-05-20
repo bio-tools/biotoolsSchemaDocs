@@ -124,9 +124,9 @@ Labels group
    "maturity", "How mature the software product is.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`__)", "0 or 1"
    "cost", "Monetary cost of acquiring the software.", "enum (see `docs <http://biotoolsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`__)", "0 or 1"
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
-   "ELIXIRPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or more"
-   "ELIXIRNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or more"
-   "ELIXIRCommunity", "Name of relevant ELIXIR (or other) community.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-community>`__)", "0 or more"
+   "elixirPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or more"
+   "elixirNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or more"
+   "elixirCommunity", "Name of relevant ELIXIR (or other) community.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-community>`__)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__. As of biotoolsSchema 3.0.0, the Labels group does not have a corresponding element/object in biotoolsSchema/biotoolsSchemaJ (the schema was flattened).
