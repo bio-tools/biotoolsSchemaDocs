@@ -26,7 +26,7 @@ biotoolsSchema includes scientific, technical and administrative software attrib
    "Labels", "label", "Miscellaneous scientific, technical and administrative details of the software, expressed in terms from controlled vocabularies."
    "Links", "link", "Miscellaneous links for the software e.g. repository, issue tracker or mailing list."
    "Downloads", "download", "Links to downloads for the software, e.g. source code, virtual machine image or container."
-   "Documentation", "documentation", "Links to documentation about the software e.g. manual, API specification or training material."
+   "Documentation", "documentation", "Links to documentation about the software e.g. user manual, API documentation or training material."
    "Publications", "publication", "Publications about the software."
    "Relations", "relation", "Details of a relationship this software shares with other software registered in bio.tools."
    "Credits", "credit", "Individuals or organisations that should be credited, or may be contacted about the software."
@@ -79,10 +79,10 @@ For each operation, data or format element, an `EDAM ontology <https://github.co
 
    "operation", "The basic operation(s) performed by this software function (EDAM Operation).", "Ontology concept (restriction)", "1 or more"
    "input", "*Details of primary input data.*", "", ""
-   "input->data", "Type of primary input data, if any (EDAM data). ", "Ontology concept (restriction)", "1 only"
+   "input->data", "Type of primary input data (EDAM data). ", "Ontology concept (restriction)", "1 only"
    "input->format", "Allowed format(s) of the input data (EDAM Format). ", "Ontology concept (restriction)", "0 or more"
    "output", "*Details of primary output data.*", "", ""
-   "output->data", "Type of primary output data, if any (EDAM Data).", "Ontology concept (restriction)", "1 only"
+   "output->data", "Type of primary output data (EDAM Data).", "Ontology concept (restriction)", "1 only"
    "output->format", "Allowed format(s) of the output data (EDAM Format).", "Ontology concept (restriction)", "0 or more"
    "operation | data | format->url", "URL of an EDAM Operation | Data | Format concept.", "URL (restriction)",  "0 or 1"
    "operation | data | format->term", "An EDAM Operation | Data | Format term (preferred label or synonym).", "xs:token", "0 or 1"
@@ -126,7 +126,7 @@ Labels group
    "accessibility", "Whether the software is freely available for use.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#accessibility>`__)", "0 or more"
    "elixirPlatform", "Name of the ELIXIR Platform that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-platform>`__)", "0 or more"
    "elixirNode", "Name of the ELIXIR Node that is credited.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-node>`__)", "0 or more"
-   "elixirCommunity", "Name of relevant ELIXIR (or other) community.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-community>`__)", "0 or more"
+   "elixirCommunity", "Name of relevant ELIXIR (or associated) community.", "enum (see `docs <http://biotools.readthedocs.io/en/latest/curators_guide.html#elixir-community>`__)", "0 or more"
 
 .. note::
    See the `Curators Guide <http://biotools.readthedocs.io/en/latest/curators_guide.html#labels-group>`__. As of biotoolsSchema 3.0.0, the Labels group does not have a corresponding element/object in biotoolsSchema/biotoolsSchemaJ (the schema was flattened).
@@ -217,7 +217,7 @@ Relation group
    :header: "Element", "Description", "Type", "Cardinality"
    :widths: 25, 50, 50, 100
 	    
-   "biotoolsID", "bio.tools ID of an existing bio.tools entry which this software is related to.", "xs:token (restriction)", "1 only"
+   "biotoolsID", "bio.tools ID of an existing bio.tools entry to which this software is related.", "xs:token (restriction)", "1 only"
    "type", "Type of relation between this and another registered software.", "enum (see `docs <https://biotools.readthedocs.io/en/latest/curators_guide.html#type-relation>`__)", "1 only"
 
 .. note::
