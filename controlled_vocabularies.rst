@@ -12,7 +12,7 @@ biotoolsSchema defines 17 controlled vocabularies - as standarised enumerations 
    "license ", "Software or data usage license, e.g. 'GPL-3.0'"
    "maturity ", "How mature the software product is, e.g. 'Mature'."
    "cost ", "Monetary cost of acquiring the software, e.g. 'Free of charge'."
-   "accessibility ", "Whether the software is freely available for use, e.g. 'Open access'."
+   "accessibility ", "Whether there are non-monetary restrictions on accessing an online service, e.g. 'Open access'."
    "link type", "The type of data, information or system that is obtained when the link is resolved, e.g. 'Helpdesk'."
    "download type ", "Type of download that is linked to, e.g. 'Source code'."
    "documentation type ", "Type of documentation that is linked to, e.g. 'API documentation'."
@@ -114,13 +114,14 @@ Cost
 
 Accessibility
 -------------
-*Whether the software is freely available for use, e.g. "Open access"*
+*Whether there are non-monetary restrictions on accessing an online service, e.g. "Open access"*
 
 .. csv-table::
    :header: "Accessibility", "Description"
    :widths: 25, 100
 
    "Open access", "An online service which is available for use to all, but possibly requiring user accounts / authentication."
+   "Open access (with restrictions)", "An online service which is available for use to all, but possibly with some usage limitations and other restrictions."
    "Restricted access", "An online service which is available for use to a restricted audience, e.g. members of a specific institute."
 
 
@@ -194,6 +195,7 @@ Documentation type
    "General", "General documentation."
    "Governance", "Information about the software governance model."
    "Installation instructions", "Instructions how to install the software."
+   "Quick start guide", "A short guide helping the end-user to use the software as soon as possible."
    "User manual ", "Information on how to use the software, tailored to the end-user."
    "Release notes", "Notes about a software release or changes to the software; a change log."
    "Terms of use", "Rules that one must agree to abide by in order to use a service."
