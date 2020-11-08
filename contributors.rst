@@ -12,7 +12,7 @@ If you’d like to get involved with the project please contact us via `GitHub <
 Main authors & contributors
 ---------------------------
 * Jon Ison (CNRS, Institut Français de Bioinformatique, FR) *- lead developer*
-* Hans-Ioan Lenasescu (University of Copenhagen, DK)
+* Hans-Ioan Ienasescu (University of Copenhagen, DK)
 * Emil Rydza (formerly University of Copenhagen, DK)
 * Piotr Chmura (University of Copenhagen, DK)
 * Kristoffer Rapacki (formerly CBS-DTU, DK)
@@ -40,4 +40,4 @@ Thanks to the many people who have contributed - if you're not listed below, ple
 * Michael Crusoe (University of California)
 * Niall Beard (University of Manchester)
 * Rodrigo Lopez (EMBL-EBI)
-* Delegates of the many BioMedBridges and ELIXIR workshops 
+* Delegates of the many BioMedBridges and ELIXIR `workshops and meetings <https://biotools.readthedocs.io/en/latest/events.html>`_ 
