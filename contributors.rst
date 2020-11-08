@@ -17,10 +17,10 @@ Main authors & contributors
 * Piotr Chmura (University of Copenhagen, DK)
 * Kristoffer Rapacki (formerly CBS-DTU, DK)
 * Alban Gaignard (L'institut du Thorax, FR)
-* Veit SchwÃ¤mmle (University of Southern Denmark, DK)
+* Veit Schwämmle (University of Southern Denmark, DK)
 * Jacques van Helden (Aix-Marseille Université, FR)
-* MatÃºÅ¡ KalaÅ¡ (University of Bergen, NO)
-* HervÃ© MÃ©nager (Institut Pasteur, FR)
+* Matúš Kalaš (University of Bergen, NO)
+* ‪Hervé Ménager (Institut Pasteur, FR)
 
 
 Contributors
