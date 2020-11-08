@@ -1,5 +1,6 @@
 What is biotoolsSchema?
 =======================
+
 **biotoolsSchema** is a formalised XML schema (XSD) which defines a description model for bioinformatics software.  It can be used to describe bioinformatics tools - application software with well-defined data processing functions (inputs, outputs and operations).   This includes simple tools with one or a few closely related functions, and complex, multimodal tools with many functions, tools available available for immediate use as online services, or in a form which which you can download, install, configure and run yourself.  
 
 biotoolsSchema defines over 50 important scientific, technical and administrative attributes that support cataloguing, discovery, use and interoperability of software.  It concentrates upon the salient common features, with a minimal core of 3 attributes only (name, short description and homepage), to provide maximum flexibility for applications.  To enable concise information, standard identifiers are used where possible, including `EDAM ontology <http://github.com/edamontology/edamontology>`_ concept IDs for specialised scientific aspects.  biotoolsSchema defines 18 controlled vocabularies for technical tool aspects.  Verbose information is referred to by URL.
@@ -9,12 +10,11 @@ biotoolsSchema together with the `EDAM ontology <https://github.com/edamontology
 biotoolsSchema is used by the ELIXIR Tools & Data Services Registry (`bio.tools <https://bio.tools>`_).
 
 
-Repo
-----
-Track developments and contribute at GitHub
+How to contribute to biotoolsSchema
+-----------------------------------
 
-- https://github.com/bio-tools/biotoolsSchema
-
+Contributions to biotoolsSchema are very welcome. Github being our primary communication channel, please do not hesitate to open issues, or comment on them. Pull requests are also welcome! 
+The list of repositories hosting biotoolsSchema and its documentation are listed below. All materials are available under the `CC-BY-SA 4.0 license<license>`_.
 
 Documentation
 -------------
