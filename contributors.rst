@@ -5,7 +5,7 @@ Governance
 ----------
 biotoolsSchema is a community-driven project governed under the leadership of the `French ELIXIR node <https://www.france-bioinformatique.fr/elixir-fr/>`_ (Jacques van Helden, Joint Head of Node) in collaboration with other national `ELIXIR nodes <https://elixir-europe.org/about-us/who-we-are/nodes>`_ and partners beyond ELIXIR.  biotoolsSchema development is supported by the French ELIXIR node, and has benefited from the voluntary contributions of many individuals since its inception. 
 
-Development on the ground is led by French ELIXIR Node staff and affiliates (HervÃ© MÃ©nager, Jon Ison and Alban Gaignard), in close collaboration with the ELIXIR Tools Platform and other partners within and beyond the `ELIXIR infrastructure <https://elixir-europe.org/>`_.
+Development on the ground is led by French ELIXIR Node staff and affiliates (Hervé Ménager, Jon Ison and Alban Gaignard), in close collaboration with the ELIXIR Tools Platform and other partners within and beyond the `ELIXIR infrastructure <https://elixir-europe.org/>`_.
 
 If you’d like to get involved with the project please contact us via `GitHub <https://github.com/bio-tools/biotoolsSchema>`_.
 
