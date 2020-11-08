@@ -40,4 +40,4 @@ Thanks to the many people who have contributed - if you're not listed below, ple
 * Michael Crusoe (University of California)
 * Niall Beard (University of Manchester)
 * Rodrigo Lopez (EMBL-EBI)
-* Delegates of the many BioMedBridges and ELIXIR `workshops and meetings <https://biotools.readthedocs.io/en/latest/events.html>`_ 
+* Delegates of the many BioMedBridges and ELIXIR `workshops and meetings <https://biotools.readthedocs.io/en/latest/events.html>`_.
