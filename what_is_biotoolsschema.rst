@@ -14,7 +14,7 @@ How to contribute to biotoolsSchema
 -----------------------------------
 
 Contributions to biotoolsSchema are very welcome. Github being our primary communication channel, please do not hesitate to open issues, or comment on them. Pull requests are also welcome! 
-The list of repositories hosting biotoolsSchema and its documentation are listed below. All materials are available under the `CC-BY-SA 4.0 license<license>`_.
+The list of repositories hosting biotoolsSchema and its documentation are listed below. All materials are available under the :doc:`CC-BY-SA 4.0 license<license>`_.
 
 Documentation
 -------------
