@@ -60,10 +60,12 @@ Citing biotoolsSchema
 ---------------------
 If you use biotoolsSchema, please cite:
 
-Ison, J. et al. (2016). Tools and data services registry: a community effort to document bioinformatics resources. *Nucleic Acids Research*, **44** (D1): D38-D47.
+Ison J. et al. (2021) biotoolsSchema: a formalized schema for bioinformatics software description. *GigaScience*, **10** (1)
 
-The article is `freely available <http://nar.oxfordjournals.org/content/44/D1/D38>`_.
+The article is `freely available <https://academic.oup.com/gigascience/article/10/1/giaa157/6121637>`_.
 
-doi: `10.1093/nar/gkv1116 <http://doi.org/10.1093/nar/gkv1116>`_ 
+doi: `10.1093/gigascience/giaa157 <https://doi.org/10.1093/gigascience/giaa157>`_ 
+
+
 
 
